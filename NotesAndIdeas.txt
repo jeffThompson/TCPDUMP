@@ -1,0 +1,22 @@
+
+NOTES && IDEAS:
+
++ 1e100.net is Google (sci notation); lots of hits
+
++ lots of...
+	- amazonaws.com
+	- cloudfront.net
+	- akamaitechnologies.com
+	- verizon.com (our ISP)
+
++ alternatives to full domain, likely for serving other content (ex: fbcdn for Facebook, nflxvideo.net)
+	- interesting to see .net used for these instead of .com
+
++ amazon and 1e100 (Google) show reach of those services, even if it's not the majority of the sites I visit
+
++ follow URL redirects? (ex: slicehost.com redirects to rackspace)
+	- possible in Python: http://stackoverflow.com/a/4902578/1167783
+	- request = urllib2.Request(starturl, datagen, headers)
+	  response = urllib2.urlopen(request)
+	  final_url = response.geturl()
+	- also: http://stackoverflow.com/a/20475712/1167783

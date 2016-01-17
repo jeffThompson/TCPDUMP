@@ -1,0 +1,4 @@
+settings.py
+*.pyc
+*.screenflow
+*.mp4

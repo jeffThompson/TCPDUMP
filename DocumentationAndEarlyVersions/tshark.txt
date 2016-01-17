@@ -1,0 +1,567 @@
+  1   0.000000  192.168.1.6 -> 192.168.1.1  DNS 93 Standard query 0x1b61 A pd-nk.itunes-apple.com.akadns.net
+  2   0.019742  192.168.1.1 -> 192.168.1.6  DNS 141 Standard query response 0x1b61 A pd-nk.itunes-apple.com.akadns.net A 17.154.66.67 A 17.154.66.69 A 17.154.66.68
+  3   0.089777  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x7400 A exchange.stevens.edu
+  4   0.123052  192.168.1.1 -> 192.168.1.6  DNS 124 Standard query response 0x7400 A exchange.stevens.edu CNAME exchange.gslb.stevens.edu A 155.246.14.27
+  5   6.079028  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0x168f A ping.chartbeat.net
+  6   6.095751  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0x168f A ping.chartbeat.net A 174.129.243.248 A 54.221.232.226 A 184.73.191.34 A 23.21.122.142 A 50.19.109.238 A 50.17.183.90 A 54.163.248.52 A 174.129.250.220
+  7   6.394187  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0xfffd A dl-debug.x.dropbox.com
+  8   6.530648  192.168.1.1 -> 192.168.1.6  DNS 210 Standard query response 0xfffd A dl-debug.x.dropbox.com A 52.71.121.157 A 52.71.107.202 A 52.71.70.34 A 52.7.54.73 A 52.71.117.26 A 52.71.115.154 A 52.7.215.17 A 52.71.119.10
+  9   7.327993  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xa056 A so0.akam.nflximg.com
+ 10   7.328117  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x8b48 A cdn0.nflximg.net
+ 11   7.445935  192.168.1.1 -> 192.168.1.6  DNS 191 Standard query response 0xa056 A so0.akam.nflximg.com CNAME so.akam.nflximg.com.edgesuite.net CNAME a1123.dscg.akamai.net A 23.67.250.104 A 23.67.250.105
+ 12   7.445993  192.168.1.1 -> 192.168.1.6  DNS 184 Standard query response 0x8b48 A cdn0.nflximg.net CNAME ba.akam.nflximg.com.edgesuite.net CNAME a1015.dscg.akamai.net A 23.67.250.121 A 23.67.250.97
+ 13   9.311960  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xc503 A www.netflix.com
+ 14   9.326684  192.168.1.1 -> 192.168.1.6  DNS 148 Standard query response 0xc503 A www.netflix.com CNAME www.geo.netflix.com CNAME www.us-east-1.prodaa.netflix.com A 54.225.182.167
+ 15   9.475119  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0x1f9c A customerevents.netflix.com
+ 16   9.628605  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0xce7f A customerevents.netflix.com
+ 17   9.787354  192.168.1.1 -> 192.168.1.6  DNS 181 Standard query response 0x1f9c A customerevents.netflix.com CNAME customerevents.geo.netflix.com CNAME customerevents.us-east-1.prodaa.netflix.com A 174.129.214.237
+ 18   9.787443  192.168.1.1 -> 192.168.1.6  DNS 181 Standard query response 0xce7f A customerevents.netflix.com CNAME customerevents.geo.netflix.com CNAME customerevents.us-east-1.prodaa.netflix.com A 174.129.214.237
+ 19   9.933479  192.168.1.6 -> 192.168.1.1  DNS 102 Standard query 0x1c5c A ipv4_1-cxl0-c018.1.ewr002.ix.nflxvideo.net
+ 20   9.946848  192.168.1.1 -> 192.168.1.6  DNS 118 Standard query response 0x1c5c A ipv4_1-cxl0-c018.1.ewr002.ix.nflxvideo.net A 23.246.30.147
+ 21  10.056437  192.168.1.6 -> 192.168.1.1  DNS 102 Standard query 0xd853 A ipv4_1-cxl0-c064.1.ewr002.ix.nflxvideo.net
+ 22  10.074690  192.168.1.1 -> 192.168.1.6  DNS 118 Standard query response 0xd853 A ipv4_1-cxl0-c064.1.ewr002.ix.nflxvideo.net A 23.246.31.153
+ 23  11.256599  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x2198 A tp.akam.nflximg.com
+ 24  11.274981  192.168.1.1 -> 192.168.1.6  DNS 189 Standard query response 0x2198 A tp.akam.nflximg.com CNAME tp.akam.nflximg.com.edgesuite.net CNAME a803.dscg.akamai.net A 23.67.250.120 A 23.67.250.137
+ 25  18.203907  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0xc76d A www.kickstarter.com
+ 26  18.232383  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0xc76d A www.kickstarter.com CNAME c.global-ssl.fastly.net A 199.27.76.175
+ 27  18.753735  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xf33d A dl-debug.dropbox.com
+ 28  18.789489  192.168.1.1 -> 192.168.1.6  DNS 187 Standard query response 0xf33d A dl-debug.dropbox.com CNAME dl-debug.x.dropbox.com SOA ns-1177.awsdns-19.org
+ 29  22.447178  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x8a64 A dl-debug.x.dropbox.com
+ 30  22.465609  192.168.1.1 -> 192.168.1.6  DNS 164 Standard query response 0x8a64 A dl-debug.x.dropbox.com SOA ns-1177.awsdns-19.org
+ 31  23.704655  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x6ae6 A safebrowsing.google.com
+ 32  23.733880  192.168.1.1 -> 192.168.1.6  DNS 230 Standard query response 0x6ae6 A safebrowsing.google.com CNAME sb.l.google.com A 63.117.68.55 A 63.117.68.54 A 63.117.68.52 A 63.117.68.53 A 63.117.68.57 A 63.117.68.58 A 63.117.68.59 A 63.117.68.56
+ 33  34.796197  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xe8cd PTR lb._dns-sd._udp.home
+ 34  34.796365  192.168.1.6 -> 192.168.1.1  DNS 100 Standard query 0xc263 PTR lb._dns-sd._udp.0.1.168.192.in-addr.arpa
+ 35  34.802300  192.168.1.1 -> 192.168.1.6  DNS 80 Standard query response 0xe8cd No such name PTR lb._dns-sd._udp.home
+ 36  34.802626  192.168.1.1 -> 192.168.1.6  DNS 100 Standard query response 0xc263 No such name PTR lb._dns-sd._udp.0.1.168.192.in-addr.arpa
+ 37  36.247190  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xc223 A pbs.twimg.com
+ 38  36.260686  192.168.1.1 -> 192.168.1.6  DNS 128 Standard query response 0xc223 A pbs.twimg.com CNAME cs472.wac.edgecastcdn.net A 192.229.163.25
+ 39  64.714779  192.168.1.6 -> 192.168.1.1  DNS 87 Standard query 0x4744 A references.api.autodesk.com
+ 40  64.722479  192.168.1.6 -> 192.168.1.1  DNS 102 Standard query 0xa219 A messages.api.autodesk.com.s3.amazonaws.com
+ 41  64.738878  192.168.1.1 -> 192.168.1.6  DNS 139 Standard query response 0xa219 A messages.api.autodesk.com.s3.amazonaws.com CNAME s3-1-w.amazonaws.com A 54.231.81.32
+ 42  64.746860  192.168.1.1 -> 192.168.1.6  DNS 211 Standard query response 0x4744 A references.api.autodesk.com CNAME origin-references.api.autodesk.com CNAME rf-prd-elb-1775384633.us-east-1.elb.amazonaws.com A 54.243.250.146 A 54.235.107.215
+ 43  65.429038  192.168.1.6 -> 192.168.1.1  DNS 112 Standard query 0x001c A com.autodesk.sync.public.production.s3.amazonaws.com
+ 44  65.445112  192.168.1.1 -> 192.168.1.6  DNS 149 Standard query response 0x001c A com.autodesk.sync.public.production.s3.amazonaws.com CNAME s3-1-w.amazonaws.com A 54.231.18.49
+ 45  76.830157  192.168.1.6 -> 192.168.1.1  DNS 93 Standard query 0x7763 A pd-nk.itunes-apple.com.akadns.net
+ 46  76.867249  192.168.1.1 -> 192.168.1.6  DNS 141 Standard query response 0x7763 A pd-nk.itunes-apple.com.akadns.net A 17.154.66.69 A 17.154.66.67 A 17.154.66.68
+ 47 104.094639  192.168.1.6 -> 192.168.1.1  DNS 96 Standard query 0x2326 A bootstrapcdn.jdorfman.netdna-cdn.com
+ 48 104.116053  192.168.1.1 -> 192.168.1.6  DNS 112 Standard query response 0x2326 A bootstrapcdn.jdorfman.netdna-cdn.com A 108.161.188.246
+ 49 140.142826  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x16a8 A www.kickstarter.com
+ 50 140.169315  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0x16a8 A www.kickstarter.com CNAME c.global-ssl.fastly.net A 23.235.39.175
+ 51 180.559071  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0x41cf A www3.l.google.com
+ 52 180.574854  192.168.1.1 -> 192.168.1.6  DNS 205 Standard query response 0x41cf A www3.l.google.com A 63.117.14.89 A 63.117.14.91 A 63.117.14.86 A 63.117.14.87 A 63.117.14.85 A 63.117.14.88 A 63.117.14.84 A 63.117.14.90
+ 53 206.859054  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0x99fc A ping.chartbeat.net
+ 54 206.876573  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0x99fc A ping.chartbeat.net A 184.73.191.34 A 54.163.248.52 A 54.221.232.226 A 50.17.183.90 A 174.129.250.220 A 50.19.109.238 A 23.21.122.142 A 174.129.243.248
+ 55 227.340672  192.168.1.6 -> 192.168.1.1  DNS 96 Standard query 0x5665 A bootstrapcdn.jdorfman.netdna-cdn.com
+ 56 227.442110  192.168.1.1 -> 192.168.1.6  DNS 112 Standard query response 0x5665 A bootstrapcdn.jdorfman.netdna-cdn.com A 108.161.188.246
+ 57 247.965313  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xc67e A d.dropbox.com
+ 58 247.980224  192.168.1.1 -> 192.168.1.6  DNS 123 Standard query response 0xc67e A d.dropbox.com CNAME d.v.dropbox.com A 108.160.172.193 A 108.160.172.225
+ 59 252.408977  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x478f A s3-1-w.amazonaws.com
+ 60 252.437540  192.168.1.1 -> 192.168.1.6  DNS 96 Standard query response 0x478f A s3-1-w.amazonaws.com A 54.231.113.235
+ 61 261.706251  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xd5ce A ping.chartbeat.net
+ 62 261.724584  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0xd5ce A ping.chartbeat.net A 23.23.102.175 A 50.19.216.194 A 23.21.71.237 A 23.23.170.207 A 50.16.193.80 A 50.16.237.53 A 23.23.164.218 A 23.23.187.101
+ 63 273.994159  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x59f1 A pbs.twimg.com
+ 64 274.015372  192.168.1.1 -> 192.168.1.6  DNS 128 Standard query response 0x59f1 A pbs.twimg.com CNAME cs472.wac.edgecastcdn.net A 192.229.163.25
+ 65 294.610643  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x115c A exchange.stevens.edu
+ 66 294.646028  192.168.1.1 -> 192.168.1.6  DNS 124 Standard query response 0x115c A exchange.stevens.edu CNAME exchange.gslb.stevens.edu A 155.246.14.27
+ 67 298.235988  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x464e A clients4.google.com
+ 68 298.249423  192.168.1.1 -> 192.168.1.6  DNS 231 Standard query response 0x464e A clients4.google.com CNAME clients.l.google.com A 63.117.14.212 A 63.117.14.213 A 63.117.14.214 A 63.117.14.218 A 63.117.14.216 A 63.117.14.215 A 63.117.14.217 A 63.117.14.219
+ 69 323.271171  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x0b67 A www.kickstarter.com
+ 70 323.298805  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0x0b67 A www.kickstarter.com CNAME c.global-ssl.fastly.net A 23.235.46.175
+ 71 329.659544  192.168.1.6 -> 192.168.1.1  DNS 87 Standard query 0xa388 A shavar.services.mozilla.com
+ 72 329.681420  192.168.1.1 -> 192.168.1.6  DNS 251 Standard query response 0xa388 A shavar.services.mozilla.com CNAME shavar.prod.mozaws.net A 52.27.63.37 A 52.88.155.162 A 50.112.173.244 A 52.27.159.60 A 52.35.236.216 A 52.32.59.229 A 52.33.204.62 A 54.69.148.247
+ 73 332.937041  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xd67d A www.netflix.com
+ 74 332.957401  192.168.1.1 -> 192.168.1.6  DNS 148 Standard query response 0xd67d A www.netflix.com CNAME www.geo.netflix.com CNAME www.us-east-1.prodaa.netflix.com A 54.235.191.120
+ 75 350.190592  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x9787 A maxcdn.bootstrapcdn.com
+ 76 350.206256  192.168.1.1 -> 192.168.1.6  DNS 162 Standard query response 0x9787 A maxcdn.bootstrapcdn.com CNAME bootstrapcdn.jdorfman.netdna-cdn.com A 94.31.29.154 A 108.161.188.246
+ 77 366.705873  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x2924 A pbs.twimg.com
+ 78 366.721486  192.168.1.1 -> 192.168.1.6  DNS 128 Standard query response 0x2924 A pbs.twimg.com CNAME cs472.wac.edgecastcdn.net A 192.229.163.25
+ 79 371.406467  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0x5e5b A slack-imgs.com
+ 80 371.446025  192.168.1.1 -> 192.168.1.6  DNS 138 Standard query response 0x5e5b A slack-imgs.com A 54.210.218.155 A 54.165.243.217 A 54.86.253.223 A 54.174.2.109
+ 81 380.875130  192.168.1.6 -> 192.168.1.1  DNS 104 Standard query 0x04eb A sync-255-us-west-2.sync.services.mozilla.com
+ 82 380.910701  192.168.1.1 -> 192.168.1.6  DNS 120 Standard query response 0x04eb A sync-255-us-west-2.sync.services.mozilla.com A 52.25.156.159
+ 83 401.244724  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xc43d A e.crashlytics.com
+ 84 401.260326  192.168.1.1 -> 192.168.1.6  DNS 269 Standard query response 0xc43d A e.crashlytics.com CNAME events-endpoint-455714294.us-east-1.elb.amazonaws.com A 107.22.221.192 A 204.236.231.126 A 107.21.116.9 A 107.20.186.206 A 107.22.242.123 A 184.72.225.96 A 107.20.200.251 A 107.20.160.193
+ 85 401.906588  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x2a6d A pbs.twimg.com
+ 86 401.922141  192.168.1.1 -> 192.168.1.6  DNS 128 Standard query response 0x2a6d A pbs.twimg.com CNAME wildcard.twimg.com A 104.244.43.167 A 104.244.43.199
+ 87 421.661324  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x8e9f A sb.l.google.com
+ 88 421.682692  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0x8e9f A sb.l.google.com A 63.117.14.216 A 63.117.14.212 A 63.117.14.217 A 63.117.14.214 A 63.117.14.219 A 63.117.14.215 A 63.117.14.218 A 63.117.14.213
+ 89 431.738307  192.168.1.6 -> 192.168.1.1  DNS 91 Standard query 0xfb85 A safebrowsing.cache.l.google.com
+ 90 431.758509  192.168.1.1 -> 192.168.1.6  DNS 219 Standard query response 0xfb85 A safebrowsing.cache.l.google.com A 63.117.14.26 A 63.117.14.23 A 63.117.14.20 A 63.117.14.24 A 63.117.14.25 A 63.117.14.22 A 63.117.14.21 A 63.117.14.27
+ 91 432.493646  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xd24d A s3-1-w.amazonaws.com
+ 92 432.510038  192.168.1.1 -> 192.168.1.6  DNS 96 Standard query response 0xd24d A s3-1-w.amazonaws.com A 54.231.98.192
+ 93 433.400755  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xe518 A lb.gravatar.com
+ 94 433.456171  192.168.1.1 -> 192.168.1.6  DNS 139 Standard query response 0xe518 A lb.gravatar.com A 192.0.80.242 A 192.0.80.239 A 192.0.80.240 A 192.0.80.241
+ 95 446.202269  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x1bbc A www.kickstarter.com
+ 96 446.231151  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0x1bbc A www.kickstarter.com CNAME c.global-ssl.fastly.net A 23.235.46.175
+ 97 460.355757  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x1148 A www.netflix.com
+ 98 460.453087  192.168.1.1 -> 192.168.1.6  DNS 148 Standard query response 0x1148 A www.netflix.com CNAME www.geo.netflix.com CNAME www.us-east-1.prodaa.netflix.com A 54.235.211.195
+ 99 462.560912  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xf222 A ping.chartbeat.net
+100 462.580921  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0xf222 A ping.chartbeat.net A 23.23.170.207 A 23.23.187.101 A 50.16.193.80 A 23.21.71.237 A 23.21.68.198 A 23.23.102.175 A 23.21.137.152 A 23.23.164.218
+101 483.374100  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xe8fb A plus.google.com
+102 483.454742  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0xe8fb A plus.google.com A 63.117.14.215 A 63.117.14.214 A 63.117.14.216 A 63.117.14.219 A 63.117.14.212 A 63.117.14.213 A 63.117.14.217 A 63.117.14.218
+103 516.217063  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xea96 A ping.chartbeat.net
+104 516.238798  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0xea96 A ping.chartbeat.net A 54.221.224.142 A 54.204.1.116 A 54.243.116.238 A 54.225.223.150 A 54.243.65.90 A 54.235.121.3 A 54.243.126.97 A 54.225.146.155
+105 568.058915  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0xd7ac A www.kickstarter.com
+106 568.084842  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0xd7ac A www.kickstarter.com CNAME c.global-ssl.fastly.net A 199.27.76.175
+107 592.325260  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xcddf A exchange.stevens.edu
+108 592.424856  192.168.1.1 -> 192.168.1.6  DNS 124 Standard query response 0xcddf A exchange.stevens.edu CNAME exchange.gslb.stevens.edu A 155.246.14.27
+109 593.422562  192.168.1.6 -> 192.168.1.1  DNS 104 Standard query 0x4630 A sync-255-us-west-2.sync.services.mozilla.com
+110 593.464368  192.168.1.1 -> 192.168.1.6  DNS 120 Standard query response 0x4630 A sync-255-us-west-2.sync.services.mozilla.com A 52.25.156.159
+111 593.826712  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x0958 A maxcdn.bootstrapcdn.com
+112 593.844626  192.168.1.1 -> 192.168.1.6  DNS 146 Standard query response 0x0958 A maxcdn.bootstrapcdn.com CNAME bootstrapcdn.jdorfman.netdna-cdn.com A 108.161.188.246
+113 593.845071  192.168.1.6 -> 192.168.1.1  DNS 96 Standard query 0xd2d0 A bootstrapcdn.jdorfman.netdna-cdn.com
+114 593.862796  192.168.1.1 -> 192.168.1.6  DNS 112 Standard query response 0xd2d0 A bootstrapcdn.jdorfman.netdna-cdn.com A 108.161.188.246
+115 605.536473  192.168.1.6 -> 192.168.1.1  DNS 85 Standard query 0x0282 A exchange.gslb.stevens.edu
+116 605.553855  192.168.1.1 -> 192.168.1.6  DNS 101 Standard query response 0x0282 A exchange.gslb.stevens.edu A 155.246.14.27
+117 612.559111  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xe2e7 A s3-1-w.amazonaws.com
+118 612.586288  192.168.1.1 -> 192.168.1.6  DNS 96 Standard query response 0xe2e7 A s3-1-w.amazonaws.com A 54.231.17.1
+119 623.391435  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0xe769 A www.google.com
+120 623.451601  192.168.1.1 -> 192.168.1.6  DNS 202 Standard query response 0xe769 A www.google.com A 63.117.14.22 A 63.117.14.20 A 63.117.14.24 A 63.117.14.23 A 63.117.14.25 A 63.117.14.21 A 63.117.14.27 A 63.117.14.26
+121 629.371814  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x5cd0 A www.kickstarter.com
+122 629.436228  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0x5cd0 A www.kickstarter.com CNAME c.global-ssl.fastly.net A 199.27.76.175
+123 631.270095  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x00c4 A www.gstatic.com
+124 631.270146  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xa608 A plus.l.google.com
+125 631.287489  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0x00c4 A www.gstatic.com A 63.117.14.246 A 63.117.14.248 A 63.117.14.249 A 63.117.14.251 A 63.117.14.247 A 63.117.14.250 A 63.117.14.245 A 63.117.14.244
+126 631.291335  192.168.1.1 -> 192.168.1.6  DNS 205 Standard query response 0xa608 A plus.l.google.com A 63.117.14.22 A 63.117.14.24 A 63.117.14.27 A 63.117.14.21 A 63.117.14.23 A 63.117.14.20 A 63.117.14.26 A 63.117.14.25
+127 632.136330  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xa0ff A maps.gstatic.com
+128 632.140928  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x41f6 A ssl.gstatic.com
+129 632.144068  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xc81f A fonts.gstatic.com
+130 632.155739  192.168.1.1 -> 192.168.1.6  DNS 204 Standard query response 0xa0ff A maps.gstatic.com A 63.117.14.122 A 63.117.14.119 A 63.117.14.116 A 63.117.14.117 A 63.117.14.120 A 63.117.14.123 A 63.117.14.118 A 63.117.14.121
+131 632.155814  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0x41f6 A ssl.gstatic.com A 63.117.14.150 A 63.117.14.148 A 63.117.14.154 A 63.117.14.151 A 63.117.14.155 A 63.117.14.152 A 63.117.14.153 A 63.117.14.149
+132 632.163286  192.168.1.1 -> 192.168.1.6  DNS 241 Standard query response 0xc81f A fonts.gstatic.com CNAME gstaticadssl.l.google.com A 63.117.68.26 A 63.117.68.23 A 63.117.68.22 A 63.117.68.20 A 63.117.68.24 A 63.117.68.27 A 63.117.68.21 A 63.117.68.25
+133 632.263046  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xdfa8 A sb.l.google.com
+134 632.279914  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0xdfa8 A sb.l.google.com A 63.117.14.26 A 63.117.14.21 A 63.117.14.27 A 63.117.14.24 A 63.117.14.25 A 63.117.14.20 A 63.117.14.22 A 63.117.14.23
+135 632.930602  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xb03f A www.netflix.com
+136 632.946523  192.168.1.1 -> 192.168.1.6  DNS 148 Standard query response 0xb03f A www.netflix.com CNAME www.geo.netflix.com CNAME www.us-east-1.prodaa.netflix.com A 54.225.221.119
+137 633.015291  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x9671 A clients5.google.com
+138 633.035415  192.168.1.1 -> 192.168.1.6  DNS 231 Standard query response 0x9671 A clients5.google.com CNAME clients.l.google.com A 63.117.14.180 A 63.117.14.183 A 63.117.14.184 A 63.117.14.181 A 63.117.14.185 A 63.117.14.182 A 63.117.14.187 A 63.117.14.186
+139 633.061056  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xca05 A plus.google.com
+140 633.077264  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0xca05 A plus.google.com A 63.117.68.52 A 63.117.68.56 A 63.117.68.53 A 63.117.68.54 A 63.117.68.55 A 63.117.68.59 A 63.117.68.58 A 63.117.68.57
+141 633.116551  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0x3191 A client-cf.dropbox.com
+142 633.134549  192.168.1.1 -> 192.168.1.6  DNS 97 Standard query response 0x3191 A client-cf.dropbox.com A 54.230.38.124
+143 633.607305  192.168.1.6 -> 192.168.1.1  DNS 96 Standard query 0x6d89 A googlehosted.l.googleusercontent.com
+144 633.607741  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0x865e A geo2.ggpht.com
+145 633.625104  192.168.1.1 -> 192.168.1.6  DNS 112 Standard query response 0x6d89 A googlehosted.l.googleusercontent.com A 74.125.22.132
+146 633.629878  192.168.1.1 -> 192.168.1.6  DNS 122 Standard query response 0x865e A geo2.ggpht.com A 74.125.226.10 A 74.125.226.11 A 74.125.226.12
+147 635.405001  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xdc3b A play.google.com
+148 635.440582  192.168.1.1 -> 192.168.1.6  DNS 224 Standard query response 0xdc3b A play.google.com CNAME play.l.google.com A 63.117.14.120 A 63.117.14.116 A 63.117.14.121 A 63.117.14.119 A 63.117.14.123 A 63.117.14.118 A 63.117.14.122 A 63.117.14.117
+149 638.204800  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x9882 A clients4.google.com
+150 638.225826  192.168.1.1 -> 192.168.1.6  DNS 231 Standard query response 0x9882 A clients4.google.com CNAME clients.l.google.com A 63.117.14.251 A 63.117.14.244 A 63.117.14.248 A 63.117.14.246 A 63.117.14.249 A 63.117.14.245 A 63.117.14.247 A 63.117.14.250
+151 710.318120  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xcbc2 A ping.chartbeat.net
+152 710.335162  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0xcbc2 A ping.chartbeat.net A 54.243.116.238 A 54.235.121.3 A 107.20.188.49 A 54.221.224.142 A 54.225.223.150 A 54.225.146.155 A 54.243.126.97 A 54.243.65.90
+153 751.223449  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0xdff3 A www.kickstarter.com
+154 751.247262  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0xdff3 A www.kickstarter.com CNAME c.global-ssl.fastly.net A 23.235.39.175
+155 754.484297  192.168.1.6 -> 192.168.1.1  DNS 71 Standard query 0x7327 A s.ytimg.com
+156 754.484343  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x9475 A youtube-ui.l.google.com
+157 754.500566  192.168.1.1 -> 192.168.1.6  DNS 199 Standard query response 0x7327 A s.ytimg.com CNAME ytstatic.l.google.com A 74.125.29.139 A 74.125.29.101 A 74.125.29.138 A 74.125.29.113 A 74.125.29.100 A 74.125.29.102
+158 754.507377  192.168.1.1 -> 192.168.1.6  DNS 211 Standard query response 0x9475 A youtube-ui.l.google.com A 63.117.14.87 A 63.117.14.84 A 63.117.14.90 A 63.117.14.86 A 63.117.14.89 A 63.117.14.91 A 63.117.14.88 A 63.117.14.85
+159 754.685521  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xfc51 A ssl.gstatic.com
+160 754.701988  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0xfc51 A ssl.gstatic.com A 63.117.14.244 A 63.117.14.249 A 63.117.14.246 A 63.117.14.247 A 63.117.14.245 A 63.117.14.248 A 63.117.14.250 A 63.117.14.251
+161 760.161658  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x4022 A www.fandango.com
+162 760.181198  192.168.1.1 -> 192.168.1.6  DNS 167 Standard query response 0x4022 A www.fandango.com CNAME www.fandango.com.edgekey.net CNAME e3443.c.akamaiedge.net A 173.223.155.72
+163 760.345554  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xd577 A tickets.fandango.com
+164 760.438065  192.168.1.1 -> 192.168.1.6  DNS 175 Standard query response 0xd577 A tickets.fandango.com CNAME tickets.fandango.com.edgekey.net CNAME e5173.g.akamaiedge.net A 172.229.237.254
+165 761.259866  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x89b9 A ajax.googleapis.com
+166 761.259919  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xd878 A a248.e.akamai.net
+167 761.261350  192.168.1.6 -> 192.168.1.1  DNS 90 Standard query 0x32b1 A fonts.fandango.com.edgekey.net
+168 761.264315  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x048f A assets.adobedtm.com
+169 761.285232  192.168.1.1 -> 192.168.1.6  DNS 129 Standard query response 0x89b9 A ajax.googleapis.com CNAME googleapis.l.google.com A 74.125.29.95
+170 761.285233  192.168.1.1 -> 192.168.1.6  DNS 109 Standard query response 0xd878 A a248.e.akamai.net A 23.67.250.88 A 23.67.250.122
+171 761.289485  192.168.1.1 -> 192.168.1.6  DNS 139 Standard query response 0x32b1 A fonts.fandango.com.edgekey.net CNAME e3443.g.akamaiedge.net A 23.193.180.63
+172 761.289724  192.168.1.1 -> 192.168.1.6  DNS 177 Standard query response 0x048f A assets.adobedtm.com CNAME san-assets.adobedtm.com.edgekey.net CNAME e5799.g.akamaiedge.net A 23.193.214.66
+173 761.402256  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xb7f7 A fonts.googleapis.com
+174 761.435316  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0x6c3d A mps.nbcuni.com
+175 761.450852  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0xb7f7 A fonts.googleapis.com CNAME googleadapis.l.google.com A 173.194.206.95
+176 761.455397  192.168.1.1 -> 192.168.1.6  DNS 158 Standard query response 0x6c3d A mps.nbcuni.com CNAME nbcuni.com.edgekey.net CNAME e776.b.akamaiedge.net A 23.76.198.144
+177 761.756757  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x30fe A www.nbcudigitaladops.com
+178 761.772761  192.168.1.1 -> 192.168.1.6  DNS 183 Standard query response 0x30fe A www.nbcudigitaladops.com CNAME www.nbcudigitaladops.com.edgekey.net CNAME e5099.b.akamaiedge.net A 23.10.227.165
+179 761.828455  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0xb6cb A pagead46.l.doubleclick.net
+180 761.849452  192.168.1.1 -> 192.168.1.6  DNS 102 Standard query response 0xb6cb A pagead46.l.doubleclick.net A 216.58.219.226
+181 761.874052  192.168.1.6 -> 192.168.1.1  DNS 93 Standard query 0x2a6c A ssl-google-analytics.l.google.com
+182 761.896891  192.168.1.1 -> 192.168.1.6  DNS 109 Standard query response 0x2a6c A ssl-google-analytics.l.google.com A 173.194.123.62
+183 761.898609  192.168.1.6 -> 192.168.1.1  DNS 88 Standard query 0x46fe A clicktalecdn.sslcs.cdngc.net
+184 761.901982  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x55a5 A e2799.e7.akamaiedge.net
+185 761.906887  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x35b1 A fandango.tt.omtrdc.net
+186 761.908440  192.168.1.6 -> 192.168.1.1  DNS 88 Standard query 0xd4ed A partner.googleadservices.com
+187 761.920835  192.168.1.1 -> 192.168.1.6  DNS 99 Standard query response 0x55a5 A e2799.e7.akamaiedge.net A 72.247.64.85
+188 761.921034  192.168.1.1 -> 192.168.1.6  DNS 120 Standard query response 0x46fe A clicktalecdn.sslcs.cdngc.net A 174.35.74.98 A 174.35.72.218
+189 761.930947  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xc733 A p.typekit.net
+190 761.947485  192.168.1.1 -> 192.168.1.6  DNS 178 Standard query response 0x35b1 A fandango.tt.omtrdc.net A 66.235.147.238 A 66.235.147.237 A 66.235.147.240 A 66.235.147.246 A 66.235.147.236 A 66.235.147.244
+191 761.951470  192.168.1.1 -> 192.168.1.6  DNS 177 Standard query response 0xd4ed A partner.googleadservices.com CNAME partnerad.l.doubleclick.net A 74.125.226.89 A 74.125.226.90 A 74.125.226.77
+192 761.956260  192.168.1.1 -> 192.168.1.6  DNS 122 Standard query response 0xc733 A p.typekit.net CNAME cs485.wac.gammacdn.net A 192.229.163.37
+193 761.982110  192.168.1.6 -> 192.168.1.1  DNS 92 Standard query 0x297b A pagead-googlehosted.l.google.com
+194 762.003344  192.168.1.1 -> 192.168.1.6  DNS 140 Standard query response 0x297b A pagead-googlehosted.l.google.com A 173.194.123.108 A 173.194.123.106 A 173.194.123.107
+195 762.048588  192.168.1.6 -> 192.168.1.1  DNS 89 Standard query 0xab22 A pagead2.googlesyndication.com
+196 762.067299  192.168.1.1 -> 192.168.1.6  DNS 145 Standard query response 0xab22 A pagead2.googlesyndication.com CNAME pagead46.l.doubleclick.net A 216.58.219.226
+197 762.070761  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xd5a2 A sb.l.google.com
+198 762.086718  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0xd5a2 A sb.l.google.com A 63.117.14.154 A 63.117.14.153 A 63.117.14.150 A 63.117.14.155 A 63.117.14.148 A 63.117.14.151 A 63.117.14.152 A 63.117.14.149
+199 762.196313  192.168.1.6 -> 192.168.1.1  DNS 93 Standard query 0x0717 A fandango.com.ssl.d2.sc.omtrdc.net
+200 762.213235  192.168.1.1 -> 192.168.1.6  DNS 109 Standard query response 0x0717 A fandango.com.ssl.d2.sc.omtrdc.net A 66.235.144.205
+201 762.604590  192.168.1.6 -> 192.168.1.1  DNS 93 Standard query 0x0fdf A www-google-analytics.l.google.com
+202 762.619700  192.168.1.1 -> 192.168.1.6  DNS 221 Standard query response 0x0fdf A www-google-analytics.l.google.com A 63.117.14.119 A 63.117.14.121 A 63.117.14.116 A 63.117.14.123 A 63.117.14.120 A 63.117.14.122 A 63.117.14.117 A 63.117.14.118
+203 762.637444  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x8c4e A stats.l.doubleclick.net
+204 762.654800  192.168.1.1 -> 192.168.1.6  DNS 147 Standard query response 0x8c4e A stats.l.doubleclick.net A 173.194.206.157 A 173.194.206.155 A 173.194.206.156 A 173.194.206.154
+205 762.656425  192.168.1.6 -> 192.168.1.1  DNS 92 Standard query 0x88af A wildcard.moatads.com.edgekey.net
+206 762.676347  192.168.1.1 -> 192.168.1.6  DNS 142 Standard query response 0x88af A wildcard.moatads.com.edgekey.net CNAME e11100.g.akamaiedge.net A 172.229.222.233
+207 762.897987  192.168.1.6 -> 192.168.1.1  DNS 72 Standard query 0x144f A cdn.krxd.net
+208 762.913592  192.168.1.1 -> 192.168.1.6  DNS 216 Standard query response 0x144f A cdn.krxd.net CNAME cdn-traffic-director.krxd.net CNAME cdn-fastly.krxd.net CNAME cdn-fastly.krxd.net.c.global-ssl.fastly.net CNAME c.global-ssl.fastly.net A 23.235.46.175
+209 762.960985  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0xde19 A dart.l.doubleclick.net
+210 762.964172  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0x7d18 A static.criteo.net
+211 762.965252  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x0546 A tag.bounceexchange.com
+212 762.980173  192.168.1.1 -> 192.168.1.6  DNS 114 Standard query response 0xde19 A dart.l.doubleclick.net A 173.194.123.91 A 173.194.123.92
+213 762.983113  192.168.1.1 -> 192.168.1.6  DNS 93 Standard query response 0x7d18 A static.criteo.net A 74.119.118.74
+214 762.986656  192.168.1.1 -> 192.168.1.6  DNS 141 Standard query response 0x0546 A tag.bounceexchange.com CNAME d1bb3j3myu8pmw.cloudfront.net A 54.192.39.5
+215 763.260636  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xd05a A sslwidget.criteo.com
+216 763.277786  192.168.1.1 -> 192.168.1.6  DNS 96 Standard query response 0xd05a A sslwidget.criteo.com A 74.119.118.82
+217 763.352900  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0xa52b A api.bounceexchange.com
+218 763.392475  192.168.1.6 -> 192.168.1.1  DNS 70 Standard query 0xe274 A d.agkn.com
+219 763.459994  192.168.1.1 -> 192.168.1.6  DNS 98 Standard query response 0xa52b A api.bounceexchange.com A 184.106.2.94
+220 763.467767  192.168.1.1 -> 192.168.1.6  DNS 280 Standard query response 0xe274 A d.agkn.com CNAME data.agkn.com CNAME data-agkn-com-1198526359.us-east-1.elb.amazonaws.com A 52.5.98.116 A 52.1.17.93 A 52.2.119.39 A 54.236.162.243 A 54.236.145.202 A 52.0.154.84 A 54.165.54.15 A 54.164.79.199
+221 763.527686  192.168.1.6 -> 192.168.1.1  DNS 90 Standard query 0xc6a0 A cdnssl.clicktale.net.cdngc.net
+222 763.545165  192.168.1.1 -> 192.168.1.6  DNS 122 Standard query response 0xc6a0 A cdnssl.clicktale.net.cdngc.net A 174.35.73.100 A 174.35.73.167
+223 763.656786  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xcb26 A adadvisor.net
+224 763.673586  192.168.1.1 -> 192.168.1.6  DNS 105 Standard query response 0xcb26 A adadvisor.net A 70.42.33.241 A 63.251.88.51
+225 763.952288  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xa68d A rtd.tubemogul.com
+226 763.968213  192.168.1.1 -> 192.168.1.6  DNS 276 Standard query response 0xa68d A rtd.tubemogul.com CNAME userdblb.tubemogul.com A 54.225.186.185 A 54.225.147.109 A 107.21.249.145 A 107.21.250.154 A 107.21.249.135 A 107.21.248.242 A 107.21.249.100 A 54.225.255.135 A 107.21.250.221 A 107.21.249.217 A 107.21.249.50
+227 764.336701  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xcd6e A dis.us.criteo.com
+228 764.347356  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x52ba A js.revsci.net
+229 764.352733  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xad4f A beacon.krxd.net
+230 764.437189  192.168.1.1 -> 192.168.1.6  DNS 93 Standard query response 0xcd6e A dis.us.criteo.com A 74.119.118.84
+231 764.442857  192.168.1.1 -> 192.168.1.6  DNS 111 Standard query response 0x52ba A js.revsci.net CNAME pix-geo.revsci.net A 74.201.141.140
+232 764.456771  192.168.1.1 -> 192.168.1.6  DNS 292 Standard query response 0xad4f A beacon.krxd.net CNAME beacon-a.lb.krxd.net CNAME beacon-a-v2-214652506.us-east-1.elb.amazonaws.com A 23.21.94.93 A 107.22.224.100 A 23.21.246.117 A 23.21.131.121 A 23.21.69.150 A 23.23.113.239 A 23.21.236.241 A 23.21.151.169
+233 764.556271  192.168.1.6 -> 192.168.1.1  DNS 87 Standard query 0x7632 A sync.search.spotxchange.com
+234 764.556727  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x817c A pix04.revsci.net
+235 764.573886  192.168.1.6 -> 192.168.1.1  DNS 95 Standard query 0x6628 A px-nyj001.quantserve.com.akadns.net
+236 764.579474  192.168.1.1 -> 192.168.1.6  DNS 175 Standard query response 0x7632 A sync.search.spotxchange.com CNAME gtm.sync.search.spotxchange.com.akadns.net A 198.54.12.128 A 198.54.12.127
+237 764.580079  192.168.1.1 -> 192.168.1.6  DNS 114 Standard query response 0x817c A pix04.revsci.net CNAME pix-geo.revsci.net A 74.201.141.140
+238 764.608010  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x1e71 A apiservices.krxd.net
+239 764.624049  192.168.1.1 -> 192.168.1.6  DNS 275 Standard query response 0x1e71 A apiservices.krxd.net CNAME apiservices-a.lb.krxd.net CNAME apiservices-a-v2-228971567.us-east-1.elb.amazonaws.com A 54.204.12.158 A 54.243.91.145 A 50.19.227.142 A 50.16.239.206 A 107.22.237.47 A 23.23.141.25
+240 764.710069  192.168.1.6 -> 192.168.1.1  DNS 72 Standard query 0x2433 A gu.symcd.com
+241 764.725163  192.168.1.1 -> 192.168.1.6  DNS 174 Standard query response 0x2433 A gu.symcd.com CNAME ocsp-ds.ws.symantec.com.edgekey.net CNAME e8218.dscb1.akamaiedge.net A 23.52.155.27
+242 764.726577  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0x8133 A adserver.adtechus.com
+243 764.727184  192.168.1.6 -> 192.168.1.1  DNS 89 Standard query 0x46c2 A wildcard.zedo.com.edgekey.net
+244 764.727836  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x9575 A www.googleadservices.com
+245 764.745109  192.168.1.1 -> 192.168.1.6  DNS 97 Standard query response 0x8133 A adserver.adtechus.com A 152.163.66.131
+246 764.746161  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xa3ce A ums.adtechus.com
+247 764.746219  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0x79e5 A gum.criteo.com
+248 764.748045  192.168.1.1 -> 192.168.1.6  DNS 138 Standard query response 0x46c2 A wildcard.zedo.com.edgekey.net CNAME e2319.c.akamaiedge.net A 184.28.197.126
+249 764.749082  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xb12b A p.univide.com
+250 764.764086  192.168.1.1 -> 192.168.1.6  DNS 170 Standard query response 0x9575 A www.googleadservices.com CNAME pagead.l.doubleclick.net A 173.194.123.58 A 173.194.123.45 A 173.194.123.57
+251 764.764324  192.168.1.1 -> 192.168.1.6  DNS 92 Standard query response 0xa3ce A ums.adtechus.com A 152.163.66.141
+252 764.765567  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x7758 A sync.rhythmxchange.com
+253 764.765618  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0x2792 A oasc17009.247realmedia.com
+254 764.766193  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x4baa A sp.analytics.yahoo.com
+255 764.772043  192.168.1.1 -> 192.168.1.6  DNS 90 Standard query response 0x79e5 A gum.criteo.com A 74.119.118.67
+256 764.773142  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xad6d A srv.clickfuse.com
+257 764.778792  192.168.1.1 -> 192.168.1.6  DNS 121 Standard query response 0xb12b A p.univide.com A 52.5.197.207 A 54.84.150.168 A 52.7.177.230
+258 764.779745  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x46d6 A pool.tokyo.iponweb.net
+259 764.789223  192.168.1.1 -> 192.168.1.6  DNS 98 Standard query response 0x7758 A sync.rhythmxchange.com A 8.30.11.13
+260 764.790051  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x65bc A pixel.rubiconproject.com
+261 764.793800  192.168.1.1 -> 192.168.1.6  DNS 124 Standard query response 0x2792 A oasc17009.247realmedia.com CNAME oasc17b.247realmedia.com A 204.13.194.232
+262 764.794747  192.168.1.6 -> 192.168.1.1  DNS 87 Standard query 0x4d38 A rtb-csync.smartadserver.com
+263 764.799187  192.168.1.1 -> 192.168.1.6  DNS 145 Standard query response 0x4baa A sp.analytics.yahoo.com CNAME spdc-global.pbp.gysm.yahoodns.net A 98.139.225.35
+264 764.800082  192.168.1.6 -> 192.168.1.1  DNS 72 Standard query 0xacf9 A ad.afy11.net
+265 764.806141  192.168.1.1 -> 192.168.1.6  DNS 125 Standard query response 0xad6d A srv.clickfuse.com A 23.21.89.186 A 50.19.231.74 A 54.225.185.4
+266 764.807143  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xebff A bh.contextweb.com
+267 764.812197  192.168.1.1 -> 192.168.1.6  DNS 130 Standard query response 0x46d6 A pool.tokyo.iponweb.net A 52.0.12.244 A 52.21.83.209 A 52.3.3.255
+268 764.813008  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x7df5 A usermatch.burstnet.com
+269 764.817116  192.168.1.1 -> 192.168.1.6  DNS 181 Standard query response 0x65bc A pixel.rubiconproject.com CNAME pixel.rubiconproject.net.akadns.net A 8.43.72.21 A 8.43.72.71 A 8.43.72.61
+270 764.818104  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0xacd4 A simage2.pubmatic.com
+271 764.823089  192.168.1.1 -> 192.168.1.6  DNS 181 Standard query response 0x4d38 A rtb-csync.smartadserver.com CNAME 2-01-275d-0017.cdx.cedexis.net CNAME tmk.smartadserver.com A 199.187.193.1 A 199.187.193.130
+272 764.824326  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xa220 A idsync.rlcdn.com
+273 764.828918  192.168.1.1 -> 192.168.1.6  DNS 88 Standard query response 0xacf9 A ad.afy11.net A 74.117.199.102
+274 764.829639  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xd47e A r.casalemedia.com
+275 764.837758  192.168.1.1 -> 192.168.1.6  DNS 152 Standard query response 0xebff A bh.contextweb.com CNAME linkedfastly.contextweb.com A 23.235.46.166 A 199.27.76.166 A 23.235.39.166
+276 764.843445  192.168.1.1 -> 192.168.1.6  DNS 157 Standard query response 0x7df5 A usermatch.burstnet.com CNAME usermatch.burstnet.akadns.net A 107.21.48.95 A 54.210.50.162
+277 764.844610  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x8d13 A x.bidswitch.net
+278 764.851402  192.168.1.1 -> 192.168.1.6  DNS 143 Standard query response 0xacd4 A simage2.pubmatic.com CNAME pug11000c.pubmatic.com CNAME pug11000.pubmatic.com A 162.248.19.136
+279 764.852635  192.168.1.6 -> 192.168.1.1  DNS 71 Standard query 0xb0a7 A r.openx.net
+280 764.854948  192.168.1.1 -> 192.168.1.6  DNS 117 Standard query response 0xa220 A idsync.rlcdn.com CNAME idsync-ext.rlcdn.com A 54.175.242.145
+281 764.856021  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0xfb85 A trc.taboola.com
+282 764.856471  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0xd754 A secure.anycast.adnxs.com
+283 764.866931  192.168.1.1 -> 192.168.1.6  DNS 169 Standard query response 0xd47e A r.casalemedia.com CNAME r.casalemedia.com.edgekey.net CNAME e8037.g.akamaiedge.net A 172.229.225.50
+284 764.867651  192.168.1.1 -> 192.168.1.6  DNS 203 Standard query response 0x8d13 A x.bidswitch.net A 52.70.43.115 A 52.70.43.117 A 52.70.67.85 A 52.70.39.146 A 52.70.43.85 A 52.70.40.176 A 52.70.43.86 A 52.70.43.107
+285 764.868171  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xa1ce A www.facebook.com
+286 764.869810  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x4d8a A e.visualdna.com
+287 764.874683  192.168.1.1 -> 192.168.1.6  DNS 87 Standard query response 0xb0a7 A r.openx.net A 173.241.242.220
+288 764.875882  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x96f7 A saxp.zedo.com
+289 764.882439  192.168.1.1 -> 192.168.1.6  DNS 170 Standard query response 0xfb85 A trc.taboola.com CNAME wildcard.taboola.com.edgekey.net CNAME e3091.b.akamaiedge.net A 23.76.196.244
+290 764.883462  192.168.1.6 -> 192.168.1.1  DNS 87 Standard query 0x2f34 A googleads.g.doubleclick.net
+291 764.885695  192.168.1.1 -> 192.168.1.6  DNS 212 Standard query response 0xd754 A secure.anycast.adnxs.com A 68.67.152.92 A 68.67.152.82 A 68.67.152.6 A 68.67.176.128 A 68.67.152.1 A 68.67.176.40 A 68.67.152.3 A 68.67.176.146
+292 764.894025  192.168.1.1 -> 192.168.1.6  DNS 121 Standard query response 0xa1ce A www.facebook.com CNAME star-mini.c10r.facebook.com A 31.13.71.36
+293 764.899435  192.168.1.1 -> 192.168.1.6  DNS 181 Standard query response 0x4d8a A e.visualdna.com CNAME eu-lb-p01-544546018.eu-west-1.elb.amazonaws.com A 52.19.80.20 A 54.154.235.72 A 54.154.197.229
+294 764.903519  192.168.1.1 -> 192.168.1.6  DNS 254 Standard query response 0x96f7 A saxp.zedo.com CNAME ztlb.zedo.net CNAME Adxprs-NC-298422198.us-west-1.elb.amazonaws.com A 54.183.234.46 A 52.9.77.88 A 54.215.220.123 A 54.67.54.244 A 54.153.107.53 A 54.153.104.79
+295 764.913940  192.168.1.1 -> 192.168.1.6  DNS 160 Standard query response 0x2f34 A googleads.g.doubleclick.net CNAME pagead46.l.doubleclick.net A 74.125.226.89 A 74.125.226.90 A 74.125.226.77
+296 764.953154  192.168.1.6 -> 192.168.1.1  DNS 71 Standard query 0x16b6 A sync.1rx.io
+297 764.972232  192.168.1.1 -> 192.168.1.6  DNS 87 Standard query response 0x16b6 A sync.1rx.io A 8.30.11.13
+298 765.016464  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0xf936 A www.google.com
+299 765.031970  192.168.1.1 -> 192.168.1.6  DNS 202 Standard query response 0xf936 A www.google.com A 63.117.14.214 A 63.117.14.218 A 63.117.14.217 A 63.117.14.213 A 63.117.14.215 A 63.117.14.212 A 63.117.14.216 A 63.117.14.219
+300 765.074748  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0xc915 A dis.criteo.com
+301 765.091170  192.168.1.1 -> 192.168.1.6  DNS 90 Standard query response 0xc915 A dis.criteo.com A 74.119.118.94
+302 765.257997  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x9cd1 A ads.yahoo.com
+303 765.258071  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0x7ab3 A sync.go.sonobi.com
+304 765.276776  192.168.1.1 -> 192.168.1.6  DNS 149 Standard query response 0x9cd1 A ads.yahoo.com CNAME fd-world.ngd.gysm.yahoodns.net A 98.139.225.43 A 98.139.225.42
+305 765.279416  192.168.1.1 -> 192.168.1.6  DNS 119 Standard query response 0x7ab3 A sync.go.sonobi.com CNAME iad-2-sync.go.sonobi.com A 69.166.1.10
+306 765.645992  192.168.1.6 -> 192.168.1.1  DNS 95 Standard query 0x6628 A px-nyj001.quantserve.com.akadns.net
+307 765.663207  192.168.1.1 -> 192.168.1.6  DNS 223 Standard query response 0x6628 A px-nyj001.quantserve.com.akadns.net A 74.217.63.22 A 74.217.63.63 A 74.217.63.39 A 74.217.63.42 A 74.217.63.50 A 74.217.63.32 A 74.217.63.38 A 74.217.63.46
+308 771.201682  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xf2a0 A ping.chartbeat.net
+309 771.218253  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0xf2a0 A ping.chartbeat.net A 107.20.139.156 A 107.22.225.24 A 184.73.153.148 A 54.243.156.79 A 54.225.129.170 A 23.21.137.152 A 184.73.161.204 A 54.243.69.241
+310 780.705051  192.168.1.6 -> 192.168.1.1  DNS 91 Standard query 0xea7d A assets.secure.checkout.visa.com
+311 780.705879  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x4135 A secure.checkout.visa.com
+312 780.709210  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x03be A atm.fandango.com
+313 780.724785  192.168.1.1 -> 192.168.1.6  DNS 183 Standard query response 0xea7d A assets.secure.checkout.visa.com CNAME checkout.visa.com.edgekey.net CNAME e5857.b.akamaiedge.net A 23.10.238.122
+314 780.728581  192.168.1.1 -> 192.168.1.6  DNS 176 Standard query response 0x4135 A secure.checkout.visa.com CNAME checkout.visa.com.edgekey.net CNAME e5857.b.akamaiedge.net A 23.10.238.122
+315 780.739384  192.168.1.1 -> 192.168.1.6  DNS 152 Standard query response 0x03be A atm.fandango.com CNAME h-fandango.online-metrix.net CNAME sb2.h-fandango.online-metrix.net A 192.225.158.158
+316 781.000218  192.168.1.6 -> 192.168.1.1  DNS 72 Standard query 0x8e4d A gn.symcd.com
+317 781.004497  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xe636 A ocsp.comodoca.com
+318 781.015525  192.168.1.1 -> 192.168.1.6  DNS 174 Standard query response 0x8e4d A gn.symcd.com CNAME ocsp-ds.ws.symantec.com.edgekey.net CNAME e8218.dscb1.akamaiedge.net A 23.52.155.27
+319 781.019689  192.168.1.1 -> 192.168.1.6  DNS 93 Standard query response 0xe636 A ocsp.comodoca.com A 178.255.83.1
+320 782.531951  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0xa31d A www.paypal.com
+321 782.547882  192.168.1.1 -> 192.168.1.6  DNS 240 Standard query response 0xa31d A www.paypal.com CNAME www.paypal.com.akadns.net CNAME ppdirect.paypal.com.akadns.net CNAME wlb.paypal.com.akadns.net CNAME www.paypal.com.edgekey.net CNAME e3694.a.akamaiedge.net A 23.66.225.150
+322 783.570194  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0x5131 A cdn.optimizely.com
+323 783.589461  192.168.1.1 -> 192.168.1.6  DNS 171 Standard query response 0x5131 A cdn.optimizely.com CNAME cdn.optimizely.com.edgekey.net CNAME e6640.g.akamaiedge.net A 23.193.162.192
+324 783.650713  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0x2a5e A vassg142.ocsp.omniroot.com
+325 783.668447  192.168.1.1 -> 192.168.1.6  DNS 193 Standard query response 0x2a5e A vassg142.ocsp.omniroot.com CNAME vassg.omniroot.com.edgesuite.net CNAME a1158.b.akamai.net A 63.88.100.177 A 63.88.100.201
+326 783.891685  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x8daa A cdn3.optimizely.com
+327 783.905088  192.168.1.1 -> 192.168.1.6  DNS 172 Standard query response 0x8daa A cdn3.optimizely.com CNAME cdn.optimizely.com.edgekey.net CNAME e6640.g.akamaiedge.net A 23.193.162.192
+328 783.976123  192.168.1.6 -> 192.168.1.1  DNS 89 Standard query 0x6486 A 3119400712.log.optimizely.com
+329 783.990173  192.168.1.1 -> 192.168.1.6  DNS 279 Standard query response 0x6486 A 3119400712.log.optimizely.com CNAME dualstack.log-334788911.us-east-1.elb.amazonaws.com A 54.225.192.101 A 54.243.162.175 A 54.243.67.247 A 23.23.98.158 A 54.225.185.164 A 23.21.65.80 A 50.19.87.192 A 54.225.217.75
+330 784.000349  192.168.1.6 -> 192.168.1.1  DNS 93 Standard query 0x2c68 A www-googletagmanager.l.google.com
+331 784.017485  192.168.1.1 -> 192.168.1.6  DNS 109 Standard query response 0x2c68 A www-googletagmanager.l.google.com A 216.58.219.200
+332 784.048382  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0x60c1 A pt000127.unica.com
+333 784.064165  192.168.1.1 -> 192.168.1.6  DNS 164 Standard query response 0x60c1 A pt000127.unica.com CNAME pt.unica.com.edgekey.net CNAME e480.b.akamaiedge.net A 104.88.13.23
+334 784.076749  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xaef0 A cs9.wac.phicdn.net
+335 784.093353  192.168.1.1 -> 192.168.1.6  DNS 94 Standard query response 0xaef0 A cs9.wac.phicdn.net A 72.21.91.29
+336 784.121567  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0xf9f8 A vassg141.ocsp.omniroot.com
+337 784.139715  192.168.1.1 -> 192.168.1.6  DNS 193 Standard query response 0xf9f8 A vassg141.ocsp.omniroot.com CNAME vassg.omniroot.com.edgesuite.net CNAME a1158.b.akamai.net A 63.88.100.201 A 63.88.100.177
+338 784.936392  192.168.1.6 -> 192.168.1.1  DNS 136 Standard query 0x16a2 A 51n9aeqi-0449245957c7a6bd06df833680e8af79a41d8afc-sac.d.aa.online-metrix.net
+339 785.025725  192.168.1.1 -> 192.168.1.6  DNS 152 Standard query response 0x16a2 A 51n9aeqi-0449245957c7a6bd06df833680e8af79a41d8afc-sac.d.aa.online-metrix.net A 192.225.158.3
+340 785.039536  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xc7e1 A g.geogslb.com
+341 785.057652  192.168.1.1 -> 192.168.1.6  DNS 232 Standard query response 0xc7e1 A g.geogslb.com CNAME ib.anycast.adnxs.com A 68.67.153.159 A 68.67.152.58 A 68.67.152.124 A 68.67.153.1 A 68.67.152.113 A 68.67.176.58 A 68.67.152.68 A 68.67.152.102
+342 785.285733  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x1bfa A ocsp.godaddy.com
+343 785.330052  192.168.1.1 -> 192.168.1.6  DNS 133 Standard query response 0x1bfa A ocsp.godaddy.com CNAME ocsp.godaddy.com.akadns.net A 72.167.239.239
+344 792.635991  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x509a A s3-1-w.amazonaws.com
+345 792.655399  192.168.1.1 -> 192.168.1.6  DNS 96 Standard query response 0x509a A s3-1-w.amazonaws.com A 54.231.12.137
+346 820.147513  192.168.1.6 -> 192.168.1.1  DNS 71 Standard query 0xe7a7 A twitter.com
+347 820.163390  192.168.1.1 -> 192.168.1.6  DNS 135 Standard query response 0xe7a7 A twitter.com A 199.16.156.6 A 199.16.156.102 A 199.16.156.70 A 199.16.156.198
+348 835.192312  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x699d A maxcdn.bootstrapcdn.com
+349 835.206256  192.168.1.1 -> 192.168.1.6  DNS 146 Standard query response 0x699d A maxcdn.bootstrapcdn.com CNAME bootstrapcdn.jdorfman.netdna-cdn.com A 108.161.188.246
+350 845.175538  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x33e9 A perpro19-ue1b.ml314.com
+351 845.196786  192.168.1.1 -> 192.168.1.6  DNS 150 Standard query response 0x33e9 A perpro19-ue1b.ml314.com CNAME ec2-52-4-237-141.compute-1.amazonaws.com A 52.4.237.141
+352 845.291913  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xf7e2 A ping.chartbeat.net
+353 845.306938  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0xf7e2 A ping.chartbeat.net A 23.21.137.152 A 184.73.161.204 A 54.243.69.241 A 107.22.225.24 A 23.21.68.198 A 184.73.153.148 A 54.243.156.79 A 107.20.139.156
+354 856.148283  192.168.1.6 -> 192.168.1.1  DNS 70 Standard query 0x74b8 A github.com
+355 856.165535  192.168.1.1 -> 192.168.1.6  DNS 86 Standard query response 0x74b8 A github.com A 192.30.252.128
+356 856.662731  192.168.1.6 -> 192.168.1.1  DNS 98 Standard query 0xe8b2 A word-game-workshop.decontextualize.com
+357 856.761187  192.168.1.1 -> 192.168.1.6  DNS 114 Standard query response 0xe8b2 A word-game-workshop.decontextualize.com A 75.126.173.131
+358 860.260289  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x4cfe A www.archives.gov
+359 860.291205  192.168.1.1 -> 192.168.1.6  DNS 92 Standard query response 0x4cfe A www.archives.gov A 207.245.165.87
+360 861.883762  192.168.1.6 -> 192.168.1.1  DNS 70 Standard query 0x5696 A medium.com
+361 861.903931  192.168.1.1 -> 192.168.1.6  DNS 150 Standard query response 0x5696 A medium.com A 104.16.123.127 A 104.16.122.127 A 104.16.120.127 A 104.16.124.127 A 104.16.121.127
+362 862.292413  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x6cdf A cdn-static-1.medium.com
+363 862.292832  192.168.1.6 -> 192.168.1.1  DNS 89 Standard query 0x7a1b A d262ilb51hltx0.cloudfront.net
+364 862.309296  192.168.1.1 -> 192.168.1.6  DNS 163 Standard query response 0x6cdf A cdn-static-1.medium.com A 104.16.117.145 A 104.16.119.145 A 104.16.120.145 A 104.16.121.145 A 104.16.118.145
+365 862.332771  192.168.1.1 -> 192.168.1.6  DNS 217 Standard query response 0x7a1b A d262ilb51hltx0.cloudfront.net A 204.246.169.12 A 204.246.169.8 A 204.246.169.29 A 204.246.169.169 A 204.246.169.170 A 204.246.169.127 A 204.246.169.186 A 204.246.169.31
+366 863.012153  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x4df3 A cdn.embedly.com
+367 863.028260  192.168.1.1 -> 192.168.1.6  DNS 163 Standard query response 0x4df3 A cdn.embedly.com CNAME cdn.embed.ly.edgekey.net CNAME e11008.g.akamaiedge.net A 172.229.222.196
+368 863.186762  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x23fe A platform.twitter.com
+369 863.207055  192.168.1.1 -> 192.168.1.6  DNS 135 Standard query response 0x23fe A platform.twitter.com CNAME cs472.wac.edgecastcdn.net A 192.229.163.25
+370 863.290234  192.168.1.6 -> 192.168.1.1  DNS 72 Standard query 0x0416 A gw.symcd.com
+371 863.303948  192.168.1.1 -> 192.168.1.6  DNS 174 Standard query response 0x0416 A gw.symcd.com CNAME ocsp-ds.ws.symantec.com.edgekey.net CNAME e8218.dscb1.akamaiedge.net A 23.52.155.27
+372 864.757619  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x81a2 A syndication.twitter.com
+373 864.770470  192.168.1.1 -> 192.168.1.6  DNS 115 Standard query response 0x81a2 A syndication.twitter.com A 199.16.156.201 A 199.16.156.120
+374 864.973875  192.168.1.6 -> 192.168.1.1  DNS 93 Standard query 0x26ff A www-google-analytics.l.google.com
+375 864.987732  192.168.1.1 -> 192.168.1.6  DNS 221 Standard query response 0x26ff A www-google-analytics.l.google.com A 63.117.14.24 A 63.117.14.21 A 63.117.14.22 A 63.117.14.27 A 63.117.14.25 A 63.117.14.26 A 63.117.14.20 A 63.117.14.23
+376 865.365491  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x916d A player.vimeo.com
+377 865.442335  192.168.1.1 -> 192.168.1.6  DNS 140 Standard query response 0x916d A player.vimeo.com A 23.235.37.217 A 104.156.85.217 A 104.156.81.217 A 23.235.33.217
+378 865.496829  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0x5a68 A i-cdn.embed.ly
+379 865.525648  192.168.1.1 -> 192.168.1.6  DNS 162 Standard query response 0x5a68 A i-cdn.embed.ly CNAME cdn.embed.ly.edgekey.net CNAME e11008.g.akamaiedge.net A 172.229.222.196
+380 865.718048  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0x1070 A f.vimeocdn.com
+381 865.733929  192.168.1.1 -> 192.168.1.6  DNS 134 Standard query response 0x1070 A f.vimeocdn.com CNAME prod.b.ssl.global.fastlylb.net A 199.27.76.143
+382 865.944871  192.168.1.6 -> 192.168.1.1  DNS 74 Standard query 0x2dd5 A i.vimeocdn.com
+383 865.960816  192.168.1.1 -> 192.168.1.6  DNS 134 Standard query response 0x2dd5 A i.vimeocdn.com CNAME prod.b.ssl.global.fastlylb.net A 199.27.76.143
+384 866.305598  192.168.1.6 -> 192.168.1.1  DNS 72 Standard query 0x3e0d A api.embed.ly
+385 866.321559  192.168.1.1 -> 192.168.1.6  DNS 120 Standard query response 0x3e0d A api.embed.ly A 23.21.240.113 A 107.21.214.225 A 107.20.134.16
+386 866.384879  192.168.1.6 -> 192.168.1.1  DNS 72 Standard query 0xc1d6 A gv.symcd.com
+387 866.461930  192.168.1.1 -> 192.168.1.6  DNS 174 Standard query response 0xc1d6 A gv.symcd.com CNAME ocsp-ds.ws.symantec.com.edgekey.net CNAME e8218.dscb1.akamaiedge.net A 23.52.155.27
+388 868.011991  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x54c0 A pbs.twimg.com
+389 868.032286  192.168.1.1 -> 192.168.1.6  DNS 128 Standard query response 0x54c0 A pbs.twimg.com CNAME cs472.wac.edgecastcdn.net A 192.229.163.25
+390 872.343156  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0x55b4 A www.instructables.com
+391 872.347464  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0xd703 A static.adsafeprotected.com
+392 872.410542  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x4d85 A hrsecsynd-a.akamaihd.net
+393 872.417135  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0x4106 A tos-a.akamaihd.net
+394 872.417314  192.168.1.6 -> 192.168.1.1  DNS 104 Standard query 0x852e A californiagurls-electricsheep.netdna-ssl.com
+395 872.447353  192.168.1.1 -> 192.168.1.6  DNS 158 Standard query response 0x55b4 A www.instructables.com CNAME a.prod.fastly.net CNAME prod.fastly.net A 23.235.46.129 A 23.235.46.192
+396 872.451585  192.168.1.6 -> 192.168.1.1  DNS 87 Standard query 0x755e A googleads.g.doubleclick.net
+397 872.465622  192.168.1.1 -> 192.168.1.6  DNS 124 Standard query response 0xd703 A static.adsafeprotected.com CNAME anycast.static.adsafeprotected.com A 69.172.216.58
+398 872.472934  192.168.1.1 -> 192.168.1.6  DNS 194 Standard query response 0x4d85 A hrsecsynd-a.akamaihd.net CNAME hrsecsynd-a.akamaihd.net.edgesuite.net CNAME a1254.d.akamai.net A 65.202.58.25 A 65.202.58.11
+399 872.473130  192.168.1.1 -> 192.168.1.6  DNS 181 Standard query response 0x4106 A tos-a.akamaihd.net CNAME tos-a.akamaihd.net.edgesuite.net CNAME a715.d.akamai.net A 65.202.58.25 A 65.202.58.18
+400 872.477917  192.168.1.1 -> 192.168.1.6  DNS 120 Standard query response 0x852e A californiagurls-electricsheep.netdna-ssl.com A 198.232.125.32
+401 872.480794  192.168.1.1 -> 192.168.1.6  DNS 128 Standard query response 0x755e A googleads.g.doubleclick.net CNAME pagead46.l.doubleclick.net A 216.58.219.226
+402 873.565783  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x4359 A dt.adsafeprotected.com
+403 873.571197  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0x2a06 A cdn.instructables.com
+404 873.582570  192.168.1.1 -> 192.168.1.6  DNS 120 Standard query response 0x4359 A dt.adsafeprotected.com CNAME anycast.dt.adsafeprotected.com A 69.172.216.111
+405 873.586141  192.168.1.1 -> 192.168.1.6  DNS 158 Standard query response 0x2a06 A cdn.instructables.com CNAME a.prod.fastly.net CNAME prod.fastly.net A 23.235.39.192 A 23.235.39.129
+406 873.991716  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xe3cb A w.soundcloud.com
+407 874.008973  192.168.1.1 -> 192.168.1.6  DNS 130 Standard query response 0xe3cb A w.soundcloud.com CNAME cs97.wac.edgecastcdn.net A 72.21.91.127
+408 874.059569  192.168.1.6 -> 192.168.1.1  DNS 71 Standard query 0x0a97 A s0.2mdn.net
+409 874.075302  192.168.1.1 -> 192.168.1.6  DNS 141 Standard query response 0x0a97 A s0.2mdn.net CNAME s0-2mdn-net.l.google.com A 74.125.226.59 A 74.125.226.60
+410 874.232515  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x3c7b A vast.bp3862928.btrll.com
+411 874.232645  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x90db A vast.bp3861034.btrll.com
+412 874.238049  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0x2789 A dbam.dashbida.com
+413 874.238205  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x2872 A vast.bp3857945.btrll.com
+414 874.240512  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x2ed5 A search.spotxchange.com
+415 874.249720  192.168.1.1 -> 192.168.1.6  DNS 123 Standard query response 0x3c7b A vast.bp3862928.btrll.com CNAME geo-rtas.btrll.com A 162.208.21.162
+416 874.254957  192.168.1.1 -> 192.168.1.6  DNS 123 Standard query response 0x90db A vast.bp3861034.btrll.com CNAME geo-rtas.btrll.com A 162.208.21.162
+417 874.259838  192.168.1.1 -> 192.168.1.6  DNS 157 Standard query response 0x2789 A dbam.dashbida.com A 54.209.150.6 A 52.6.134.143 A 54.209.167.204 A 54.173.243.54 A 54.209.150.174
+418 874.266012  192.168.1.1 -> 192.168.1.6  DNS 123 Standard query response 0x2872 A vast.bp3857945.btrll.com CNAME geo-rtas.btrll.com A 162.208.21.162
+419 874.271639  192.168.1.1 -> 192.168.1.6  DNS 189 Standard query response 0x2ed5 A search.spotxchange.com CNAME geo.search-gtm.spotxchange.com.akadns.net CNAME iad02.search.spotxchange.com A 192.35.249.124 A 192.35.249.123
+420 892.339141  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x0da2 A exchange.stevens.edu
+421 892.438342  192.168.1.1 -> 192.168.1.6  DNS 124 Standard query response 0x0da2 A exchange.stevens.edu CNAME exchange.gslb.stevens.edu A 155.246.14.27
+422 894.969693  192.168.1.6 -> 192.168.1.1  DNS 88 Standard query 0xe360 A theoceansociety.appserver.tv
+423 894.987087  192.168.1.1 -> 192.168.1.6  DNS 214 Standard query response 0xe360 A theoceansociety.appserver.tv CNAME us1-elb.appserver.tv CNAME us1-elb-appserver-tv-868466964.us-west-1.elb.amazonaws.com A 184.169.165.234 A 50.18.174.251
+424 897.330723  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x0499 A aka.spotxcdn.com
+425 897.353129  192.168.1.1 -> 192.168.1.6  DNS 167 Standard query response 0x0499 A aka.spotxcdn.com CNAME cdn.spotxcdn.com.edgekey.net CNAME e3143.g.akamaiedge.net A 184.28.197.176
+426 898.536383  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x2ff9 A flash.quantserve.com
+427 898.536596  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x343e A tags.bluekai.com
+428 898.536699  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xae97 A loadr.exelator.com
+429 898.536797  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xa42b A ad.crwdcntrl.net
+430 898.536897  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xde86 A adadvisor.net
+431 898.536998  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x86db A pqwtt.ads.tremorhub.com
+432 898.544844  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0xcdef A signup.netflix.com
+433 898.570684  192.168.1.1 -> 192.168.1.6  DNS 157 Standard query response 0xcdef A signup.netflix.com CNAME signup.geo.netflix.com CNAME signup.us-east-1.prodaa.netflix.com A 54.243.33.76
+434 898.574932  192.168.1.1 -> 192.168.1.6  DNS 284 Standard query response 0x2ff9 A flash.quantserve.com CNAME akamai-pixel.quantserve.com.akadns.net CNAME px-nyj001.quantserve.com.akadns.net A 74.217.63.26 A 74.217.63.43 A 74.217.63.64 A 74.217.63.14 A 74.217.63.44 A 74.217.63.28 A 74.217.63.27 A 74.217.63.60
+435 898.575215  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0x6a2f A 4ofsx.ads.tremorhub.com
+436 898.581945  192.168.1.1 -> 192.168.1.6  DNS 115 Standard query response 0x343e A tags.bluekai.com CNAME tags.wdc.bluekai.com A 173.192.220.64
+437 898.582222  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0xde58 A ads.adaptv.advertising.com
+438 898.587888  192.168.1.1 -> 192.168.1.6  DNS 122 Standard query response 0xae97 A loadr.exelator.com CNAME loadus.tm.ssl.exelator.com A 72.251.229.242
+439 898.592973  192.168.1.1 -> 192.168.1.6  DNS 154 Standard query response 0xa42b A ad.crwdcntrl.net CNAME g.crwdcntrl.net CNAME td.crwdcntrl.net CNAME bcpad4.iad.loc.crwdcntrl.net A 199.233.57.19
+440 898.601125  192.168.1.1 -> 192.168.1.6  DNS 105 Standard query response 0xde86 A adadvisor.net A 63.251.88.51 A 70.42.33.241
+441 898.601623  192.168.1.1 -> 192.168.1.6  DNS 273 Standard query response 0x86db A pqwtt.ads.tremorhub.com CNAME wildcard-ads-1386167347.us-east-1.elb.amazonaws.com A 52.22.110.243 A 54.174.87.232 A 54.175.137.101 A 107.23.30.46 A 52.20.174.69 A 54.174.27.66 A 52.20.254.58 A 54.84.54.110
+442 898.601697  192.168.1.1 -> 192.168.1.6  DNS 273 Standard query response 0x6a2f A 4ofsx.ads.tremorhub.com CNAME wildcard-ads-1386167347.us-east-1.elb.amazonaws.com A 54.174.87.232 A 54.175.137.101 A 107.23.30.46 A 52.20.174.69 A 54.174.27.66 A 52.20.254.58 A 54.84.54.110 A 52.22.110.243
+443 898.609482  192.168.1.1 -> 192.168.1.6  DNS 373 Standard query response 0xde58 A ads.adaptv.advertising.com CNAME control.adap.tv CNAME control.adap.tv.akadns.net CNAME control-ec-local.adap.tv.akadns.net CNAME ads-zone-b-486611221.us-east-1.elb.amazonaws.com A 107.23.122.42 A 107.21.21.230 A 107.23.90.185 A 107.21.9.255 A 107.23.141.195 A 52.0.144.83 A 107.21.26.134 A 107.21.23.220
+444 898.613740  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0xb62f A load.s3.amazonaws.com
+445 898.639695  192.168.1.1 -> 192.168.1.6  DNS 118 Standard query response 0xb62f A load.s3.amazonaws.com CNAME s3-1-w.amazonaws.com A 54.231.112.128
+446 898.641693  192.168.1.6 -> 192.168.1.1  DNS 70 Standard query 0xa145 A d.agkn.com
+447 898.661902  192.168.1.1 -> 192.168.1.6  DNS 280 Standard query response 0xa145 A d.agkn.com CNAME data.agkn.com CNAME data-agkn-com-1198526359.us-east-1.elb.amazonaws.com A 54.164.79.199 A 54.165.54.15 A 52.3.125.66 A 52.22.121.24 A 52.5.98.116 A 54.236.162.243 A 54.236.145.202 A 52.0.154.84
+448 899.038991  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x8a2b A www.kickstarter.com
+449 899.057716  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0x8a2b A www.kickstarter.com CNAME c.global-ssl.fastly.net A 23.235.39.175
+450 899.319528  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0x17a0 A cdn.tremorhub.com
+451 899.319662  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x4f81 A redir.adap.tv
+452 899.342831  192.168.1.1 -> 192.168.1.6  DNS 164 Standard query response 0x4f81 A redir.adap.tv CNAME wildcard.adap.tv.edgekey.net CNAME e8314.g.akamaiedge.net A 172.229.225.157
+453 899.427483  192.168.1.1 -> 192.168.1.6  DNS 247 Standard query response 0x17a0 A cdn.tremorhub.com CNAME dyhd7e8p4cqed.cloudfront.net A 204.246.169.171 A 204.246.169.184 A 204.246.169.28 A 204.246.169.4 A 204.246.169.40 A 204.246.169.108 A 204.246.169.149 A 204.246.169.132
+454 899.525899  192.168.1.6 -> 192.168.1.1  DNS 71 Standard query 0xbbef A twitter.com
+455 899.555185  192.168.1.1 -> 192.168.1.6  DNS 135 Standard query response 0xbbef A twitter.com A 199.16.156.70 A 199.16.156.198 A 199.16.156.230 A 199.16.156.38
+456 899.657905  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x229c A static.kickstarter.com
+457 899.659160  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0x6145 A ksr-ugc.imgix.net
+458 899.680903  192.168.1.1 -> 192.168.1.6  DNS 131 Standard query response 0x6145 A ksr-ugc.imgix.net CNAME prod.imgix.map.fastlylb.net A 199.27.76.188
+459 899.685964  192.168.1.1 -> 192.168.1.6  DNS 181 Standard query response 0x229c A static.kickstarter.com CNAME prod.c.ssl.global.fastly.net CNAME prod.c.ssl.global.fastlylb.net A 199.27.76.175
+460 899.842473  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0xa42d A dtm.advertising.com
+461 899.857055  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x23ce A kikuv-zeseg.dashbida.com
+462 899.857657  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xc210 A vast.videe.tv
+463 899.857858  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0x03f7 A ad.doubleclick.net
+464 899.858027  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0x10fb A log.adaptv.advertising.com
+465 899.863200  192.168.1.1 -> 192.168.1.6  DNS 173 Standard query response 0xa42d A dtm.advertising.com CNAME dtm.advertising.com.edgekey.net CNAME e9669.g.akamaiedge.net A 172.229.209.43
+466 899.891516  192.168.1.1 -> 192.168.1.6  DNS 164 Standard query response 0x23ce A kikuv-zeseg.dashbida.com A 54.209.150.174 A 54.209.150.6 A 54.173.243.54 A 54.209.167.204 A 52.6.134.143
+467 899.895089  192.168.1.1 -> 192.168.1.6  DNS 105 Standard query response 0xc210 A vast.videe.tv A 209.205.207.162 A 209.205.209.130
+468 899.912033  192.168.1.1 -> 192.168.1.6  DNS 131 Standard query response 0x03f7 A ad.doubleclick.net CNAME dart.l.doubleclick.net A 173.194.123.124 A 173.194.123.123
+469 899.925156  192.168.1.1 -> 192.168.1.6  DNS 389 Standard query response 0x10fb A log.adaptv.advertising.com CNAME segments.adap.tv CNAME log.adap.tv.akadns.net CNAME log-ec-local.adap.tv.akadns.net CNAME log-ec-2.adap.tv CNAME log-zone-c-251829089.us-east-1.elb.amazonaws.com A 52.2.98.64 A 107.21.59.161 A 52.2.74.132 A 107.23.94.34 A 52.20.176.43 A 52.0.139.135 A 52.1.126.243 A 54.88.89.155
+470 900.064862  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0xc3dc A e8454.g.akamaiedge.net
+471 900.085072  192.168.1.1 -> 192.168.1.6  DNS 98 Standard query response 0xc3dc A e8454.g.akamaiedge.net A 172.229.225.243
+472 900.369535  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x5f49 A connect.facebook.net
+473 900.373029  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x0735 A kozon-cigar.dashbida.com
+474 900.373185  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x6a60 A video.bnmla.com
+475 900.373321  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x6dc3 A gycem-byxax.dashbida.com
+476 900.373446  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x6f74 A vast.bp3867825.btrll.com
+477 900.373563  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x546a A tags.rllcll.com
+478 900.444246  192.168.1.1 -> 192.168.1.6  DNS 128 Standard query response 0x5f49 A connect.facebook.net CNAME scontent.xx.fbcdn.net A 31.13.71.7
+479 900.447976  192.168.1.1 -> 192.168.1.6  DNS 164 Standard query response 0x0735 A kozon-cigar.dashbida.com A 54.209.167.204 A 52.6.134.143 A 54.209.150.174 A 54.209.150.6 A 54.173.243.54
+480 900.452737  192.168.1.1 -> 192.168.1.6  DNS 91 Standard query response 0x6a60 A video.bnmla.com A 66.150.114.26
+481 900.452962  192.168.1.1 -> 192.168.1.6  DNS 164 Standard query response 0x6dc3 A gycem-byxax.dashbida.com A 54.173.243.54 A 54.209.150.174 A 54.209.150.6 A 54.209.167.204 A 52.6.134.143
+482 900.455489  192.168.1.1 -> 192.168.1.6  DNS 123 Standard query response 0x6f74 A vast.bp3867825.btrll.com CNAME geo-rtas.btrll.com A 162.208.21.162
+483 900.462361  192.168.1.1 -> 192.168.1.6  DNS 150 Standard query response 0x546a A tags.rllcll.com CNAME tags.quibtag.com A 23.110.213.66 A 23.80.26.162 A 23.110.214.106
+484 900.525845  192.168.1.6 -> 192.168.1.1  DNS 86 Standard query 0xe108 A vassg142.ocsp.omniroot.com
+485 900.546698  192.168.1.1 -> 192.168.1.6  DNS 193 Standard query response 0xe108 A vassg142.ocsp.omniroot.com CNAME vassg.omniroot.com.edgesuite.net CNAME a1158.b.akamai.net A 63.88.100.177 A 63.88.100.201
+486 900.567820  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xde64 A a248.e.akamai.net
+487 900.583421  192.168.1.1 -> 192.168.1.6  DNS 109 Standard query response 0xde64 A a248.e.akamai.net A 23.67.250.122 A 23.67.250.88
+488 900.682399  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x0e3d A platform.tumblr.com
+489 900.701915  192.168.1.1 -> 192.168.1.6  DNS 185 Standard query response 0x0e3d A platform.tumblr.com CNAME dy0k9wscos2ll.cloudfront.net A 54.230.39.17 A 54.230.39.238 A 54.230.39.66 A 54.230.39.233
+490 900.794123  192.168.1.6 -> 192.168.1.1  DNS 89 Standard query 0x0304 A d3mlfyygrfdi2i.cloudfront.net
+491 900.876648  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x2342 A vpc.altitude-arena.com
+492 900.876769  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x01e2 A ads.stickyadstv.com
+493 900.896159  192.168.1.1 -> 192.168.1.6  DNS 130 Standard query response 0x2342 A vpc.altitude-arena.com A 204.86.118.20 A 66.35.58.76 A 204.86.118.21
+494 900.898463  192.168.1.1 -> 192.168.1.6  DNS 273 Standard query response 0x01e2 A ads.stickyadstv.com CNAME ip1.ads.stickyadstv.com.akadns.net CNAME fp4.ads.stickyadstv.com.akadns.net A 158.69.119.92 A 167.114.174.13 A 198.27.75.147 A 142.4.216.210 A 158.69.116.27 A 192.99.17.41 A 167.114.174.35 A 158.69.27.22
+495 900.899835  192.168.1.1 -> 192.168.1.6  DNS 217 Standard query response 0x0304 A d3mlfyygrfdi2i.cloudfront.net A 204.246.169.4 A 204.246.169.52 A 204.246.169.171 A 204.246.169.13 A 204.246.169.176 A 204.246.169.73 A 204.246.169.187 A 204.246.169.135
+496 901.101823  192.168.1.6 -> 192.168.1.1  DNS 68 Standard query 0x7165 A t.kck.st
+497 901.140387  192.168.1.1 -> 192.168.1.6  DNS 201 Standard query response 0x7165 A t.kck.st CNAME koala-p-f-loadbala-1xc0f3dld1gjy-1778997712.us-east-1.elb.amazonaws.com A 107.23.122.228 A 52.7.249.18 A 54.210.92.204
+498 901.255321  192.168.1.6 -> 192.168.1.1  DNS 87 Standard query 0x3d99 A star-mini.c10r.facebook.com
+499 901.267069  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0xe1c4 A staticxx.facebook.com
+500 901.272142  192.168.1.1 -> 192.168.1.6  DNS 103 Standard query response 0x3d99 A star-mini.c10r.facebook.com A 31.13.71.36
+501 901.281472  192.168.1.1 -> 192.168.1.6  DNS 132 Standard query response 0xe1c4 A staticxx.facebook.com CNAME scontent.xx.fbcdn.net A 31.13.71.7
+502 901.330470  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xa4c5 A api.mixpanel.com
+503 901.346822  192.168.1.1 -> 192.168.1.6  DNS 284 Standard query response 0xa4c5 A api.mixpanel.com A 169.54.33.206 A 169.54.33.147 A 169.54.33.205 A 169.54.33.174 A 169.54.33.180 A 169.54.33.148 A 169.54.33.197 A 169.54.33.179 A 169.54.33.164 A 169.54.33.143 A 169.54.33.207 A 169.54.33.191 A 169.54.33.140
+504 901.383426  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0x9251 A ad4.liverail.com
+505 901.383541  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x182f A vid.springserve.com
+506 901.459575  192.168.1.1 -> 192.168.1.6  DNS 156 Standard query response 0x9251 A ad4.liverail.com CNAME delivery-geo.liverail.com CNAME liverail.c10r.facebook.com A 31.13.71.12
+507 901.468221  192.168.1.1 -> 192.168.1.6  DNS 225 Standard query response 0x182f A vid.springserve.com CNAME yh-vpc-vd-engine-1868842572.us-east-1.elb.amazonaws.com A 52.4.165.165 A 54.86.87.65 A 52.7.133.244 A 54.152.21.139 A 52.3.239.40
+508 901.546139  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0xf672 A js-agent.newrelic.com
+509 901.546599  192.168.1.6 -> 192.168.1.1  DNS 88 Standard query 0xf98e A dtlilztwypawv.cloudfront.net
+510 901.546846  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x5fd2 A cdn.siftscience.com
+511 901.548920  192.168.1.6 -> 192.168.1.1  DNS 88 Standard query 0x05d8 A scontent-lga3-1.xx.fbcdn.net
+512 901.561404  192.168.1.1 -> 192.168.1.6  DNS 134 Standard query response 0xf672 A js-agent.newrelic.com CNAME c.global-ssl.fastly.net A 23.235.46.175
+513 901.571425  192.168.1.1 -> 192.168.1.6  DNS 216 Standard query response 0xf98e A dtlilztwypawv.cloudfront.net A 204.246.169.117 A 204.246.169.6 A 204.246.169.161 A 204.246.169.31 A 204.246.169.212 A 204.246.169.72 A 204.246.169.200 A 204.246.169.131
+514 901.573174  192.168.1.1 -> 192.168.1.6  DNS 138 Standard query response 0x5fd2 A cdn.siftscience.com CNAME d2us8jqsezvhge.cloudfront.net A 54.230.38.154
+515 901.577653  192.168.1.1 -> 192.168.1.6  DNS 104 Standard query response 0x05d8 A scontent-lga3-1.xx.fbcdn.net A 31.13.71.7
+516 901.890252  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0xbc6b A vast.bp3868032.btrll.com
+517 901.905304  192.168.1.1 -> 192.168.1.6  DNS 123 Standard query response 0xbc6b A vast.bp3868032.btrll.com CNAME geo-rtas.btrll.com A 162.208.21.162
+518 901.942645  192.168.1.6 -> 192.168.1.1  DNS 77 Standard query 0xbb4d A b.siftscience.com
+519 901.960804  192.168.1.1 -> 192.168.1.6  DNS 93 Standard query response 0xbb4d A b.siftscience.com A 54.164.119.121
+520 901.993745  192.168.1.6 -> 192.168.1.1  DNS 75 Standard query 0x862b A bam.nr-data.net
+521 902.006017  192.168.1.1 -> 192.168.1.6  DNS 155 Standard query response 0x862b A bam.nr-data.net A 50.31.164.173 A 50.31.164.165 A 50.31.164.175 A 50.31.164.166 A 50.31.164.174
+522 902.396381  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0xdb75 A vast.bp3864172.btrll.com
+523 902.452745  192.168.1.1 -> 192.168.1.6  DNS 123 Standard query response 0xdb75 A vast.bp3864172.btrll.com CNAME geo-rtas.btrll.com A 162.208.21.162
+524 902.629660  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xf892 A cdn0.vox-cdn.com
+525 902.646841  192.168.1.1 -> 192.168.1.6  DNS 197 Standard query response 0xf892 A cdn0.vox-cdn.com CNAME z.vox-cdn.com CNAME prod.vox.map.fastly.net CNAME prod.vox.map.fastlylb.net A 199.27.76.124 A 199.27.76.124
+526 903.410610  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0x2990 A imasdk.googleapis.com
+527 903.441036  192.168.1.1 -> 192.168.1.6  DNS 133 Standard query response 0x2990 A imasdk.googleapis.com CNAME googleadapis.l.google.com A 173.194.206.95
+528 905.152729  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0xcce6 A gcdn.2mdn.net
+529 905.174481  192.168.1.1 -> 192.168.1.6  DNS 294 Standard query response 0xcce6 A gcdn.2mdn.net CNAME bandaid-redirector.l.google.com A 74.125.226.33 A 74.125.226.41 A 74.125.226.36 A 74.125.226.34 A 74.125.226.37 A 74.125.226.35 A 74.125.226.32 A 74.125.226.38 A 74.125.226.46 A 74.125.226.39 A 74.125.226.40
+530 905.245957  192.168.1.6 -> 192.168.1.1  DNS 88 Standard query 0x03e8 A r18---sn-ab5l6n7k.c.2mdn.net
+531 905.261421  192.168.1.1 -> 192.168.1.6  DNS 134 Standard query response 0x03e8 A r18---sn-ab5l6n7k.c.2mdn.net CNAME r18.sn-ab5l6n7k.c.2mdn.net A 74.125.174.23
+532 905.347316  192.168.1.6 -> 192.168.1.1  DNS 76 Standard query 0xdec8 A www.theverge.com
+533 905.462501  192.168.1.1 -> 192.168.1.6  DNS 181 Standard query response 0xdec8 A www.theverge.com CNAME prod.vox.map.fastly.net CNAME prod.vox.map.fastlylb.net A 199.27.76.124 A 199.27.76.124
+534 905.702134  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x340b A cdn.doubleverify.com
+535 905.722825  192.168.1.1 -> 192.168.1.6  DNS 179 Standard query response 0x340b A cdn.doubleverify.com CNAME wildcard.doubleverify.com.edgekey.net CNAME e990.g.akamaiedge.net A 173.223.152.252
+536 905.911555  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0xea67 A cdn3.doubleverify.com
+537 905.934008  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0xef65 A tps30.doubleverify.com
+538 905.941267  192.168.1.1 -> 192.168.1.6  DNS 180 Standard query response 0xea67 A cdn3.doubleverify.com CNAME wildcard.doubleverify.com.edgekey.net CNAME e990.g.akamaiedge.net A 173.223.152.252
+539 905.946619  192.168.1.6 -> 192.168.1.1  DNS 89 Standard query 0x04b3 A pagead2.googlesyndication.com
+540 905.952228  192.168.1.1 -> 192.168.1.6  DNS 98 Standard query response 0xef65 A tps30.doubleverify.com A 204.154.111.224
+541 905.981295  192.168.1.1 -> 192.168.1.6  DNS 177 Standard query response 0x04b3 A pagead2.googlesyndication.com CNAME pagead46.l.doubleclick.net A 173.194.123.25 A 173.194.123.26 A 173.194.123.13
+542 906.258794  192.168.1.6 -> 192.168.1.1  DNS 73 Standard query 0x3baf A z.moatads.com
+543 906.259880  192.168.1.6 -> 192.168.1.1  DNS 80 Standard query 0x38cf A events.tremorhub.com
+544 906.260014  192.168.1.6 -> 192.168.1.1  DNS 83 Standard query 0xe6d4 A b.scorecardresearch.com
+545 906.260130  192.168.1.6 -> 192.168.1.1  DNS 87 Standard query 0xd870 A tremor2waycm-atl.netmng.com
+546 906.260273  192.168.1.6 -> 192.168.1.1  DNS 88 Standard query 0xb265 A googleads4.g.doubleclick.net
+547 906.260582  192.168.1.6 -> 192.168.1.1  DNS 81 Standard query 0xf2c8 A sync.doubleverify.com
+548 906.281805  192.168.1.1 -> 192.168.1.6  DNS 169 Standard query response 0x3baf A z.moatads.com CNAME wildcard.moatads.com.edgekey.net CNAME e11100.g.akamaiedge.net A 172.229.222.233
+549 906.282132  192.168.1.6 -> 192.168.1.1  DNS 79 Standard query 0x31bd A usevideo.adsrvr.org
+550 906.288187  192.168.1.1 -> 192.168.1.6  DNS 200 Standard query response 0x38cf A events.tremorhub.com CNAME events-1640616348.us-east-1.elb.amazonaws.com A 54.210.134.209 A 107.23.198.110 A 52.6.23.45 A 52.22.147.56
+551 906.288483  192.168.1.6 -> 192.168.1.1  DNS 96 Standard query 0x0bd9 A video-ad-stats.googlesyndication.com
+552 906.292080  192.168.1.1 -> 192.168.1.6  DNS 213 Standard query response 0xe6d4 A b.scorecardresearch.com CNAME b.scorecardresearch.com.edgesuite.net CNAME a1294.w20.akamai.net A 23.67.250.136 A 23.67.250.129 A 23.67.250.107
+553 906.292329  192.168.1.6 -> 192.168.1.1  DNS 85 Standard query 0x0f5c A tps10231.doubleverify.com
+554 906.300111  192.168.1.1 -> 192.168.1.6  DNS 128 Standard query response 0xd870 A tremor2waycm-atl.netmng.com CNAME 2waycm-geo.netmng.com A 104.193.82.53
+555 906.306061  192.168.1.1 -> 192.168.1.6  DNS 159 Standard query response 0xb265 A googleads4.g.doubleclick.net CNAME pagead.l.doubleclick.net A 173.194.123.121 A 173.194.123.122 A 173.194.123.109
+556 906.311911  192.168.1.1 -> 192.168.1.6  DNS 97 Standard query response 0xf2c8 A sync.doubleverify.com A 204.154.111.224
+557 906.312095  192.168.1.1 -> 192.168.1.6  DNS 95 Standard query response 0x31bd A usevideo.adsrvr.org A 209.15.224.6
+558 906.315981  192.168.1.1 -> 192.168.1.6  DNS 112 Standard query response 0x0bd9 A video-ad-stats.googlesyndication.com A 74.125.29.95
+559 906.324942  192.168.1.1 -> 192.168.1.6  DNS 101 Standard query response 0x0f5c A tps10231.doubleverify.com A 204.154.110.241
+560 906.344157  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0xf529 A partners.tremorhub.com
+561 906.419961  192.168.1.6 -> 192.168.1.1  DNS 82 Standard query 0x3f27 A dl-debug.x.dropbox.com
+562 906.437202  192.168.1.1 -> 192.168.1.6  DNS 268 Standard query response 0xf529 A partners.tremorhub.com CNAME partners-1732315393.us-east-1.elb.amazonaws.com A 52.0.159.122 A 52.20.47.138 A 52.6.44.115 A 54.209.203.35 A 54.84.71.33 A 52.3.103.243 A 54.88.232.23 A 54.174.245.74
+563 906.451723  192.168.1.1 -> 192.168.1.6  DNS 164 Standard query response 0x3f27 A dl-debug.x.dropbox.com SOA ns-1177.awsdns-19.org
+564 906.803022  192.168.1.6 -> 192.168.1.1  DNS 84 Standard query 0x31dd A sb.scorecardresearch.com
+565 906.818033  192.168.1.1 -> 192.168.1.6  DNS 184 Standard query response 0x31dd A sb.scorecardresearch.com CNAME sb.scorecardresearch.com.edgekey.net CNAME e2799.e7.akamaiedge.net A 72.247.64.85
+566 920.364781  192.168.1.6 -> 192.168.1.1  DNS 78 Standard query 0x0082 A ping.chartbeat.net
+567 920.454696  192.168.1.1 -> 192.168.1.6  DNS 206 Standard query response 0x0082 A ping.chartbeat.net A 54.243.126.97 A 54.225.223.150 A 54.225.146.155 A 54.243.65.90 A 54.204.1.116 A 54.221.224.142 A 54.235.121.3 A 54.243.116.238
