@@ -1,4 +1,4 @@
-![https://raw.githubusercontent.com/jeffThompson/TCPDUMP/master/images/TCPDUMP_Screenshot_FB.jpg](Screenshot of the project website)
+![Screenshot of the project website](https://raw.githubusercontent.com/jeffThompson/TCPDUMP/master/images/TCPDUMP_Screenshot_FB.jpg)
 
 # TCPDUMP
 A month-long performance documenting every unique server from which my computer attempts to download a file.
