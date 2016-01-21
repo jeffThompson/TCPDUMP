@@ -36,7 +36,7 @@
 		$local_domain = 		'jeff-thompson';	# what's the computer's local domain?
 		$ignore_local_domains = true;				# ignore connections from the local domain?
 		$unique_urls = 			true;				# ignore repeat URLs?
-		$refresh_rate = 		2 * 60;				# auto-refresh rate (in seconds) while performing
+		$refresh_rate = 		5 * 60;				# auto-refresh rate (in seconds) while performing
 	?>
 
 	<!-- enable responsiveness on mobile devices-->
@@ -166,6 +166,9 @@
 		<section id="data">
 			<a name="data"></a>
 			<h1>GATHERING</h1>
+
+			<div id="loadingData">Loading data &mdash; may take a few moments...</div>
+
 			<table id="servers">
 			<thead>
 			<tr>

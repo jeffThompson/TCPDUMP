@@ -120,6 +120,13 @@ th, td {
 	padding: 0.3em 20px;
 }
 
+#loadingData {
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+	color: rgba(45, 178, 178, 0.8);
+	line-height: 1.3em;
+}
 
 #setupTable td:nth-child(1) {
 	color: rgb(0, 248, 0);
@@ -174,24 +181,32 @@ a:hover span.mapMarker, a:hover span.whois {
 }
 
 
-/* RESPONSIVE ASCII ART */
+/* RESPONSIVE */
 @media screen and (max-width:800px) {
 	.logoDiv {
 		width: 100%;
 	}
+
+	/* break addresses/count on smaller screens */
+	td {		
+		-ms-word-break: break-all;
+		word-break: break-all;
+		word-break: break-word;
+		-webkit-hyphens: auto;
+		-moz-hyphens: auto;
+   		hyphens: auto;
+	}
 }
+
 @media screen and (max-width:460px) {
+	/* responsive ascii art */
 	.logoDiv {
 		font-size: 12px;
 	}
+
+	/* alternate row colors */
 	tr:nth-child(even), th {
 		background-color: rgb(40,40,40);
-	}
-	td {
-		overflow-wrap: word-break;
-		word-wrap: word-break;
-		word-break: break-all;
-		word-break: break-word;
 	}
 }
 

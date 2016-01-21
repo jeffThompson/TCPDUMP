@@ -18,25 +18,10 @@
 
 	</div> <!-- end wrapper -->
 
-	<!-- misc js utilities -->
+	<!-- remove loading info when done -->
 	<script>
-		// commas to count #s
-		var counts = document.getElementsByClassName('count');
-		for (var i=0; i<counts.length; i++) {
-			var val = counts[i].innerHTML;
-			while (/(\d+)(\d{3})/.test(val.toString())){
-				val = val.toString().replace(/(\d+)(\d{3})/, '$1'+','+'$2');
-			}
-			counts[i].innerHTML = val;
-		}
-
-		// <wbr> after all periods and dashes in URLs
-		var urls = document.getElementsByClassName('urlString');
-		for (var i=0; i<urls.length; i++) {
-			var s = urls[i].innerHTML;
-			s = s.replace(/\./g, '.<wbr>');
-			s = s.replace(/\-/g, '-<wbr>');
-			urls[i].innerHTML = s;
+		window.onload = function() {
+			document.getElementById("loadingData").style.display = "none";
 		}
 	</script>
 

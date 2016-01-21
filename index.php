@@ -30,7 +30,7 @@
 
 	# display
 	foreach($rows as $row) {
-		$count = 		$row[0];
+		$count = 		number_format($row[0]);
 
 		$url = 			$row[3];
 		$subdomain = 	$row[4];
