@@ -9,33 +9,8 @@
 
 Jeff Thompson | 2014-15 | www.jeffreythompson.org
 
-Posts a list of every server my computer connects to.
-
-
-TO DO:
-+ maybe tshark is better? both?
-+ messy url fixed to: 48,01-07-2016,08-28-57.844413,nexus.stevens.edu.imaps,nexus,stevens,edu,s.imap,,,,,,,
-
-
-NOTES:
-+ previous method
-	- tshark -f "port 53" (via: http://wiki.wireshark.org/CaptureFilters)
-	- tshark -f "port 53" -Eheader=y
-+ list of common ports
-	- http://www.webopedia.com/quick_ref/portnumbers.asp
-+ capture only packets going out?
-	- ie: from > to (where "from" doesn't have my username)
-+ lookup IP address and resolve (location, details, etc)?
-
-+ using -X gives the ASCII rep of the packet header - post to Twitter?
-	(....5........E.
-	.i[7@.3....;....
-	..........g.....
-	.C.I......,C....
-	......0....L.y..
-	.(=B.?.N...~....
-	...G...N..Z.W.L.
-	O.J+...
+An online performance, documenting every server my computer
+connects to over a period of one month.
 
 '''
 

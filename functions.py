@@ -163,8 +163,11 @@ def parse_url(row, local_domain, group_email_urls, compare_stored_urls, previous
 		return None
 
 	# simplify email URLs, if specified
+	# (also ignore the insane # of Stevens sub-IPs... 🙄)
 	if group_email_urls and 'perfora.net' in url:
 		url = re.sub(r'[perfora\.net\.][0-9]+', '', url)
+	if group_email_urls and '155.246.200.20' in url:
+		return None
 
 	# ignore 'link' and 'output' (always the first 2 URLs...)
 	if url == 'link' or url == 'output':
