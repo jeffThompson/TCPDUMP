@@ -1,7 +1,9 @@
+# -*- coding: utf-8 -*-
 
-import os, re, time, tldextract, urllib2, json, socket
+import os, re, time, tldextract, urllib2, json, socket, csv, operator
 from ftplib import FTP
 from datetime import datetime
+from settings import ftp_settings
 
 attempt_to_resolve_hostname_from_ip = True 		# try to get hostname from IP address?
 
@@ -23,24 +25,50 @@ def r_align(s, col_width):
 	return (' ' * (col_width-len(s))) + s
 
 
+# SORT FILES FOR UPLOAD
+def sort_files(log_filename):
+	data = csv.reader(open(log_filename), delimiter=',')
+	headers = ','.join(next(data, None)) + '\n'
+
+	# sort by URL
+	url_sorted = sorted(data, key=operator.itemgetter(3), reverse=False)
+	with open('AllServers_URL.csv', 'w') as f:
+		f.write(headers)
+		for i, line in enumerate(url_sorted):
+			if i==0:
+				header = line
+				continue
+			f.write(','.join(line) + '\n')
+
+	# reverse file to sort by count (descending)
+	with open(log_filename) as f:
+		s = f.readlines()
+		s.reverse()
+	with open('AllServers_DESC.csv', 'w') as f:
+		f.write(headers)
+		f.writelines(s)
+
+
 # UPLOAD FILE TO SERVER
 # connects each time to avoid timeout and other
 # issues for long FTP connections
-def upload(file, settings):
-	ftp_address = settings['ftp_address']
-	username = settings['username']
-	password = settings['password']
-	directory = settings['directory']
+def upload():
+	ftp_address = ftp_settings['ftp_address']
+	username = ftp_settings['username']
+	password = ftp_settings['password']
+	directory = ftp_settings['directory']
 
 	ftp = FTP(ftp_address)
 	ftp.login(username, password)
 	ftp.cwd(directory)
 
-	ext = os.path.splitext(file)[1]
-	if ext.lower() in ('.txt', '.htm', '.html', '.css', '.js', '.php', '.csv'):
-		ftp.storlines('STOR ' + file, open(file))
-	else:
-		ftp.storbinary('STOR ' + file, open(file, 'rb'), 1024)
+	files_to_upload = [ 'AllServers_ASC.csv', 'AllServers_DESC.csv', 'AllServers_URL.csv' ]
+	for f in files_to_upload:
+		ext = os.path.splitext(f)[1]
+		if ext.lower() in ('.txt', '.htm', '.html', '.css', '.js', '.php', '.csv'):
+			ftp.storlines('STOR ' + f, open(f))
+		else:
+			ftp.storbinary('STOR ' + f, open(f, 'rb'), 1024)
 	ftp.quit()
 
 

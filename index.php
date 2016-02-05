@@ -9,24 +9,27 @@
 	$rows = array();
 	$by = array();
 
-	$handle = fopen('AllServers.csv', 'r');
+	# load file based on sorting option
+	# by url
+	if (isset($_GET['sort']) && $_GET['sort'] == 'url') {
+		$handle = fopen('AllServers_URL.csv', 'r');
+	} 
+
+	# by count: oldest to newest
+	else if (isset($_GET['sort']) && $_GET['sort'] == 'count') {
+		$handle = fopen('AllServers_ASC.csv', 'r');
+	} 
+
+	# default: count, newest to oldest
+	else {
+		$handle = fopen('AllServers_DESC.csv', 'r');
+	}
+
 	$row = fgetcsv($handle, 1024, ',');							// skip header
 	while (($row = fgetcsv($handle, 1024, ',')) !== FALSE) {
-	    if ($_GET['sort'] == 'url') {
-		    $by[] = $row[5];
-		} else if ($_GET['sort'] == 'count') {
-			$by[] = $row[0];
-		}
 	    $rows[] = $row;
 	}
 	fclose($handle);
-
-	# sort it (if no sorting listed, reverse newest-to-oldest)
-	if (isset($_GET['sort'])) {
-		array_multisort($by, $rows);
-	} else {
-		array_multisort($rows, SORT_DESC);
-	}
 
 	# display
 	foreach($rows as $row) {

@@ -57,10 +57,10 @@
 	<meta property="og:description" content="A month-long performance documenting every unique server from which my computer attempts to download a file.">
 
 	<?php 
-		if (performing) {
-			echo '<!-- auto-refresh while performance is running -->' . PHP_EOL;
-			echo '	<meta http-equiv="refresh" content="' . $refresh_rate . '">' . PHP_EOL;
-		}
+		// if (performing) {
+		// 	echo '<!-- auto-refresh while performance is running -->' . PHP_EOL;
+		// 	echo '	<meta http-equiv="refresh" content="' . $refresh_rate . '">' . PHP_EOL;
+		// }
 	?>
 	
 	<!-- styles, Inconsolata, and FontAwesome -->

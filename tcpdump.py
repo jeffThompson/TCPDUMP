@@ -16,7 +16,6 @@ connects to over a period of one month.
 
 
 # REQUIRED IMPORTS
-from settings import ftp_settings
 from functions import *
 import os, socket, sys, pwd, glob, grp, time
 from threading import Thread
@@ -29,7 +28,12 @@ compare_stored_urls = 	True				# store unique (true) or all?
 group_email_urls = 		True 				# combine 'perfora.net' urls?
 col_width = 			10					# width of the "count" column
 upload_interval = 		10 * 1000			# how often to re-upload index.php
-log_filename = 			'AllServers.csv'
+skip_some_urls = 		True 				# ignore some URL/IPs?
+
+log_filename = 			'AllServers_ASC.csv'
+
+# some IP/URLs to ignore
+skip_urls = [ '155.246.200.18.', 'jeff-thompson.home', 'jeff-thompsons-iphone', 'jeffs-ipad.local.' ]
 
 # tlds that aren't really tlds
 not_really_tlds = 		[ 'imap', 'imaps', 'ftp' ]
@@ -104,7 +108,7 @@ print 'Gathering previous URLs...',
 sys.stdout.flush()
 previous_urls = set()
 try:
-	with open('AllServers.csv') as f:
+	with open(log_filename) as f:
 		for i, line in enumerate(f):
 			if i == 0:
 				continue
@@ -114,7 +118,7 @@ try:
 			previous_urls.add(data[3].strip())
 		count = int(data[0])
 except:
-	with open('AllServers.csv', 'a') as f:
+	with open(log_filename, 'a') as f:
 		f.write('count,date,time,url,subdomain,domain,tld,rest,ip,country,region,city,zip_code,lat,lon' + '\n')
 	start_time = datetime.now().strftime('%B %d, %Y at %H:%M:%S')
 
@@ -161,24 +165,42 @@ try:
 							compare_stored_urls, previous_urls)
 			if url == None:
 				continue
+
+			# skip internal Stevens IPs, etc?
+			# messy and nasty, I know...
+			if skip_some_urls:
+				skip = False
+				for u in skip_urls:
+					if u in url:
+						skip = True
+						break
+				if skip:
+					continue
+
+			# all good? what'd we get?
 			print FG_CYAN + r_align(str(count), col_width) + '   ' + BOLD + url + ALL_OFF
 
 			# split URL into parts
 			url_parts = split_url(url, not_really_tlds)
 
 			# get location for address
-			location = get_location(url)
+			if '155.246.200.18.' in url:
+				location = ('', '', '', '', '', '', '')		# ignore internal Stevens IP
+			else:
+				location = get_location(url)
 
 			# log to file
 			log_data(count, url, url_parts, location)
-			# update_html(count, url, url_parts)
 
-			# enough time passed? upload
+			# enough time passed? created sorted CSV files and upload
 			if millis() > prev_millis + upload_interval:
+				sort_files(log_filename)
+
+				# upload all three files
 				print '\n' + center_text('[ uploading... ]'),
 				sys.stdout.flush()
 				try:
-					t = Thread(target=upload, args=(log_filename, ftp_settings))
+					t = Thread(target=upload, args=())
 					t.start()
 					t.join()
 					print CURSOR_UP + CLEAR_LINE + BOLD + center_text('[ uploading... DONE! ]') + ALL_OFF
@@ -196,12 +218,14 @@ except KeyboardInterrupt:
 	print 'Final upload:      ' + BOLD + FG_CYAN,
 	sys.stdout.flush()
 	try:
-		t = Thread(target=upload, args=(log_filename, ftp_settings))
+		sort_files(log_filename)
+		t = Thread(target=upload, args=())
 		t.start()
 		t.join()
 		print 'Done' + ALL_OFF
-	except:
+	except Exception, e:
 		print 'Error uploading' + ALL_OFF
+		# print str(e)
 
 	# close it
 	print 'Disconnecting FTP:  ' + BOLD + FG_CYAN + 'Closed' + ALL_OFF
