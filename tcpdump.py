@@ -33,7 +33,7 @@ skip_some_urls = 		True 				# ignore some URL/IPs?
 log_filename = 			'AllServers_ASC.csv'
 
 # some IP/URLs to ignore
-skip_urls = [ '155.246.200.18.', 'jeff-thompson.home', 'jeff-thompsons-iphone', 'jeffs-ipad.local.' ]
+skip_urls = [ '155.246.200.', 'jeff-thompson.home', 'jeff-thompsons-iphone', 'jeffs-ipad.local.' ]
 
 # tlds that aren't really tlds
 not_really_tlds = 		[ 'imap', 'imaps', 'ftp' ]

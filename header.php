@@ -32,7 +32,7 @@
 
 	<?php
 		# settings
-		$performing = 			true;				# is the performance in progress?
+		$performing = 			false;				# is the performance in progress?
 		$local_domain = 		'jeff-thompson';	# what's the computer's local domain?
 		$ignore_local_domains = true;				# ignore connections from the local domain?
 		$unique_urls = 			true;				# ignore repeat URLs?
